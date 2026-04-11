@@ -75,7 +75,7 @@ emerged in the ICT sector (NACE J), 2022-2025:
 | Signal | Change | Source Table |
 |--------|--------|-------------|
 | Employment | -1,300 jobs (-11.4%) | VIN01110 |
-| Revenue (J62 computer services) | +72% | FYR04101 |
+| Revenue (J62 computer services) | +74.5% (2019→2024) | FYR04101 |
 | Vacancy rate | 5.4% to 0.3% (-94%) | JVS00001 |
 
 Revenue rising while employment falls and vacancies collapse is the
@@ -118,7 +118,7 @@ was not identified or commented on by any Icelandic institution.
 | Country | AI Labour Framework | Status |
 |---------|-------------------|--------|
 | Norway | LO-NHO Basic Agreement includes AI provisions | Active |
-| Denmark | Hilfr2 — world's first AI-specific collective agreement | Active |
+| Denmark | Hilfr2 — one of the first collective agreements in Europe to explicitly address AI and algorithmic management | Active |
 | Finland | SAK technology agreement framework | Active |
 | Sweden | Unionen AI guidelines for white-collar workers | Active |
 | Iceland | Nothing | — |

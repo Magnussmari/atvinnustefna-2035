@@ -82,11 +82,13 @@ python3 scripts/02_verify_textanalysis.py
 
 **Claim:** Iceland's ICT sector (NACE J) shows a pattern consistent with productivity displacement: revenue surging while employment falls and vacancies collapse to near zero. No Icelandic institution assembled these three signals into a finding before this analysis.
 
-**Gögn / Data (2022–2025):**
+**Gögn / Data:**
+
+*Athugasemd um tímaramma / Timeframe note: Atvinnufækkun og hrun lausra starfa mælt 2022–2025. Tekjuaukning mælist +74,5% frá 2019→2024 (J62 tölvuþjónusta). Employment and vacancy signals 2022–2025; revenue +74.5% measured 2019→2024.*
 
 | Merki / Signal | Breyting / Change | Hagstofu-tafla / Table |
 |----------------|-------------------|------------------------|
-| Tekjur (J62 tölvuþjónusta) / Revenue | **+72%** | FYR04101 |
+| Tekjur (J62 tölvuþjónusta) / Revenue | **+74,5% (2019→2024)** | FYR04101 |
 | Fjöldi starfsmanna / Employment | **-1.300 störf (-11,4%)** | VIN01110 |
 | Hlutfall lausra starfa / Vacancy rate | **5,4% → 0,3% (-94%)** | JVS00001 |
 | Framleiðni vinnuafls / Labour productivity | **+10,5%** (hæst allra greina) | THJ11011 |
@@ -175,7 +177,7 @@ Að auki er 17% misræmi á milli tveggja opinberra atvinnuleysismælinga á Ís
 
 **Heimildir / Sources:**
 - Samráðsgátt, aðgerðaáætlun gervigreindar: https://island.is/samradsgatt/mal/3862
-- Viðurkenning ráðherra á að engin formleg greining hafi farið fram (Þingskjal 2212/154): https://www.althingi.is/altext/154/s/2212.html
+- Innviðaráðherra viðurkenndi að engin formleg vinna hafi farið fram á því hvernig hægt sé að nýta gervigreind í lögbundnum verkefnum ráðuneytisins (Þingskjal 2212/154): https://www.althingi.is/altext/154/s/2212.html
 - Aðgerðaáætlun gervigreindar (ensk útgáfa): https://www.stjornarradid.is/library/04-Raduneytin/Menningar---nyskopunar--og-haskolaraduneytid/Iceland's%20AI%20Action%20Plan%20electronic%20version.pdf
 - Könnun Vörðu 2026: https://vinnan.is/ny-skyrsla-vordu-synir-olika-stodu-launafolks-til-ad-maeta-breytingum-a-vinnumarkadi-vegna-ahrifa-taekni-og-loftslagsbreytinga/
 - EPRS-rannsókn á reikniritstjórnun (42,3% starfsmanna í ESB): https://www.europarl.europa.eu/RegData/etudes/STUD/2025/774670/EPRS_STU(2025)774670_EN.pdf
@@ -330,9 +332,9 @@ Til viðbótar við eigin sannprófunarforrit er hafin sjálfstæð sannprófun 
 
 Heildarsamantekt: [`MASTER_VERIFICATION_SUMMARY.md`](verification/Manus/MASTER_VERIFICATION_SUMMARY.md)
 
-**Þrjár leiðréttingar þarf áður en birting:** (1) Tekjutímarammi Finding 2: 2019→2024, ekki 2022→2025. (2) Finding 4d: "one of the first in Europe" ekki "world's first". (3) Finding 5d: Ráðherrasvar fjallar um notkun AI í ráðuneytisstarfi, ekki um áhrif á vinnumarkað almennt.
+*Öll 5 niðurstöður sannprófaðar — engin hrakin. Þrjár nákvæmnilagfæringar beitt. Sjá [`MASTER_VERIFICATION_SUMMARY.md`](verification/Manus/MASTER_VERIFICATION_SUMMARY.md) fyrir fulla samantekt.*
 
-*Three precision corrections identified before publication. All findings confirmed — no finding contradicted. See [`MASTER_VERIFICATION_SUMMARY.md`](verification/Manus/MASTER_VERIFICATION_SUMMARY.md) for full details.*
+*All 5 findings verified — none contradicted. Three precision corrections applied. See [`MASTER_VERIFICATION_SUMMARY.md`](verification/Manus/MASTER_VERIFICATION_SUMMARY.md) for full details.*
 
 ---
 

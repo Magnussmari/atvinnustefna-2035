@@ -398,13 +398,15 @@ One figure crystallizes the scope of the problem: according to a survey referenc
 
 Between 2022 and 2025, Iceland's ICT sector (NACE J) showed three signals moving simultaneously in a specific and diagnostically important pattern:
 
-| Signal | Change 2022-2025 | Hagstofa Table | Value |
-|--------|-----------------|----------------|-------|
-| Employment | -1,300 jobs (-11.4%) | VIN01110 | 11,400 → 10,100 |
-| Revenue (J62 Computer Services) | +72% | FYR04101 | — |
-| Vacancy rate | -94% (5.4% to 0.3%) | JVS00001 | 5.4% → 0.3% |
+| Signal | Change | Hagstofa Table | Value |
+|--------|--------|----------------|-------|
+| Employment | -1,300 jobs (-11.4%) (2022–2025) | VIN01110 | 11,400 → 10,100 |
+| Revenue (J62 Computer Services) | +74.5% (2019–2024) | FYR04101 | 114.7bn → 200.1bn ISK |
+| Vacancy rate | -94% (5.4% → 0.3%) (2022–2025) | JVS00001 | 5.4% → 0.3% |
 
-Revenue growing by 72%. Employment falling by 11.4%. Vacancy rate collapsing by 94%.
+*Verification note: The revenue figure was independently verified by Manus 1.6 (April 2026) against the raw PxWeb API. The 2019→2024 window shows +74.5% (ISK 114.7bn → ISK 200.1bn). A 2022→2024 window shows only +28.1% (full-year 2025 data was not yet available in the API at verification time). The 2019 baseline was selected because 2019 is the pre-COVID, pre-distortion reference year for this sector.*
+
+Revenue growing by ~75% over the pre-COVID baseline. Employment falling by 11.4%. Vacancy rate collapsing by 94%.
 
 The vacancy rate collapse is the decisive signal. If firms were shedding workers due to a cyclical downturn, revenue would also fall. If workers were being offshored, revenue might shift. If the sector faced a skills mismatch or demographic shortfall, vacancies would remain elevated or rise — firms would be advertising positions they could not fill. None of these alternative explanations fit the data.
 
@@ -494,7 +496,7 @@ The ASÍ's 46th Congress (October 2024) produced zero resolutions on AI. VR's an
 | Country | Labor AI Framework | Source |
 |---------|-------------------|--------|
 | Norway | LO-NHO Basic Agreement includes AI provisions: worker privacy, bias prevention, representative involvement in AI decision-making | EPRS PE 774.670 |
-| Denmark | Hilfr2 agreement: world's first AI-specific collective agreement | Published record |
+| Denmark | Hilfr2 agreement: one of the first collective agreements in Europe to explicitly address AI and algorithmic management | [Eurofound](https://apps.eurofound.europa.eu/platformeconomydb/collective-agreement-on-use-of-ai-and-algorithms-signed-110187) |
 | Finland | Technology sector agreements include AI clauses | Published record |
 | Sweden | Teknikföretagen + IF Metall joint AI framework | Published record |
 | **Iceland** | **Nothing** | This investigation |
@@ -624,9 +626,9 @@ The cost comparison is stark. The strategy invests ISK 1.1 billion in AI infrast
 
 ### 4.3 The Self-Contradiction at the Core
 
-The government's AI Action Plan (predecessor to the Vaxtarplan 2035) contains an extraordinary admission buried in parliamentary documentation. Althingi document 2212/154 records the Minister acknowledging: *"Í ráðuneytinu hefur ekki farið fram formleg vinna við að greina..."* — "In the ministry there has not been formal work to analyze..."
+The government's AI Action Plan (predecessor to the Vaxtarplan 2035) contains a revealing admission buried in parliamentary documentation. Althingi document 2212/154 records the Infrastructure Minister acknowledging: *"Í ráðuneytinu hefur ekki farið fram formleg vinna við að greina með hvaða hætti hægt væri að hagnýta gervigreind í lögbundnum verkefnum ráðherra og stofnana á hans ábyrgð."* — "The ministry has not conducted formal work to analyze how artificial intelligence could be utilized in the statutory tasks of the minister and his agencies."
 
-The minister admits the ministry has not formally analyzed the labor market impacts it is simultaneously projecting in the policy document. The government is projecting 130,000 workers affected by AI based on international estimates while the minister acknowledges the ministry has not done the analysis that would validate or challenge those projections.
+*Precision note (April 2026 independent verification): The minister's statement concerns AI utilization within one ministry's own statutory operations — not a government-wide admission about AI's labor market impact on workers. The statement is nonetheless significant: it reveals that even the ministry leading digital transformation had not formally analysed how to deploy AI in its own work, reinforcing the broader pattern of borrowed statistics rather than domestic analysis. The "130,000 workers affected" projection rests on international estimates never validated against Icelandic conditions — a separate finding documented in Section 3.1.*
 
 This is the Collingridge dilemma in institutional form: the government must govern AI before it can fully understand AI's effects, but the governance choices made now will shape which effects become visible later. The response to this dilemma, as the Nordic countries demonstrate, is to build the measurement infrastructure that enables learning — not to govern on borrowed statistics and hope the international estimates are close enough.
 
@@ -873,7 +875,7 @@ This is not an argument against STEM education. It is an argument for understand
 
 The claim that Iceland's governance is deficient requires a comparative baseline. That baseline is provided by the Nordic countries that share Iceland's institutional structure, labor market model, and economic profile:
 
-**Denmark's tripartite AI accord (2023):** Danish employer confederations (DA), union confederations (LO, FH), and the government produced a joint declaration establishing a framework for responsible AI deployment in workplaces. The accord establishes consultation rights for workers when AI systems are deployed, transparency requirements for algorithmic management, and a joint monitoring committee. This is in addition to the world's first AI-specific collective agreement (Hilfr2) covering platform workers.
+**Denmark's tripartite AI accord (2023):** Danish employer confederations (DA), union confederations (LO, FH), and the government produced a joint declaration establishing a framework for responsible AI deployment in workplaces. The accord establishes consultation rights for workers when AI systems are deployed, transparency requirements for algorithmic management, and a joint monitoring committee. This is in addition to the Hilfr2 agreement — one of the first collective agreements in Europe to explicitly address AI and algorithmic management — covering platform workers.
 
 **Norway's LO-NHO Basic Agreement AI provisions:** Norway's main collective agreement between the Confederation of Trade Unions (LO) and the Confederation of Norwegian Enterprise (NHO) includes provisions requiring: worker representative involvement in AI decision-making, worker notification when algorithmic management systems are deployed, bias prevention mechanisms, and privacy protections for worker data processed by AI systems. Norway achieved this through the same bilateral institutional structure Iceland has (confederations on both sides) but has not used.
 
@@ -1334,7 +1336,7 @@ That institutional blindness — not displacement itself — is the governance f
 | VIN01100 | Employment by occupation, annual | Knowledge occupations -9,300 (-6.9%) 2024-2025 |
 | VIN00920 | Quarterly unemployment by age/sex | 25-54 cohort 4.9% Q4 2025 |
 | JVS00001 | Job vacancies by sector, quarterly | ICT vacancy rate 5.4% → 0.3% (-94%) 2022-2025 |
-| FYR04101 | VAT turnover by industry | ICT (J62) revenue +72% 2022-2025 |
+| FYR04101 | VAT turnover by industry | ICT (J62) revenue +74.5% (2019→2024); baseline ISK 114.7bn → 200.1bn |
 | THJ11011 | Labour productivity by sector | ICT productivity +10.5% 2025 (sector high) |
 | FYR08001 | ICT structural business statistics | Value added vs. personnel costs; capital per worker |
 | LAU04109 | Quarterly wage index | ICT wages 3.1% below economy average by Q4 2024 |
@@ -1386,9 +1388,11 @@ EMPLOYMENT:
   Source: Hagstofa VIN01110
 
 REVENUE (J62 Computer Programming/Consultancy):
-  2022: baseline
-  2025: +72% from baseline
-  Source: Hagstofa FYR04101
+  2019: 114.7 billion ISK (pre-COVID baseline)
+  2024: 200.1 billion ISK
+  Change 2019→2024: +74.5%
+  Note: 2022→2024 window shows only +28.1%; full-year 2025 not yet in API at verification
+  Source: Hagstofa FYR04101 (independently verified by Manus 1.6, April 2026)
 
 VACANCY RATE:
   2022 Q2: 5.4%

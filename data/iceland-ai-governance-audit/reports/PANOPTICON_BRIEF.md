@@ -31,7 +31,7 @@ The ICT sector (NACE J) shows three signals moving simultaneously in the directi
 | Signal | Change (2022-2025) | Source |
 |--------|-------------------|--------|
 | Employment | -1,300 jobs (-11.4%) | Hagstofa VIN01110 |
-| Revenue (J62 Computer Services) | +72% | Hagstofa FYR04101 |
+| Revenue (J62 Computer Services) | +74.5% (2019→2024) | Hagstofa FYR04101 |
 | Vacancy rate | 5.4% to 0.3% (-94%) | Hagstofa JVS00001 |
 
 Revenue growing. Employment falling. Vacancies collapsing. Firms are producing more with fewer people and are not replacing the workers they shed.
@@ -74,7 +74,7 @@ When the Icelandic government opened a 14-day consultation on its AI Action Plan
 
 At ASI's 46th Congress in October 2024, zero resolutions addressed AI. VR's annual workplace survey assesses 9 criteria — none mention AI or automation. No Icelandic union has published an AI framework, an AI position paper, or an AI collective agreement provision.
 
-For comparison: Norway's LO-NHO Basic Agreement includes AI provisions. Denmark's Hilfr2 agreement is the world's first AI-specific collective agreement. Iceland has nothing.
+For comparison: Norway's LO-NHO Basic Agreement includes AI provisions. Denmark's Hilfr2 agreement is one of the first collective agreements in Europe to explicitly address AI and algorithmic management. Iceland has nothing.
 
 Meanwhile, the Varda 2026 survey (n=25,000) — the first quantitative measurement of Icelandic worker experience with technology — found that 23% of workers report their jobs have changed or will change due to technology, 36% of those fear job loss, and 45% feel they have received inadequate training.
 

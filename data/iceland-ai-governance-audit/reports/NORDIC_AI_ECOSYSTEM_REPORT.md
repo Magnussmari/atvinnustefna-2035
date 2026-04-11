@@ -118,7 +118,7 @@ UNAK is the first Icelandic university to adopt a formal AI use policy. This is 
 |---------|----------------------|-------|-------------------------------|---------------------|
 | Sweden | WASP (6 universities) | Very large | 35.04% | Unionen AI guidelines for white-collar |
 | Finland | FCAI (3 institutions, ~70 profs) | Large | 37.82% | SAK technology agreement framework |
-| Denmark | Pioneer Centre for AI | Large | 42.03% (EU highest) | Hilfr2 — world's first AI-specific collective agreement |
+| Denmark | Pioneer Centre for AI | Large | 42.03% (EU highest) | Hilfr2 — one of the first collective agreements in Europe to explicitly address AI and algorithmic management |
 | Norway | NTNU | Large | Participating in EWCS | LO-NHO Basic Agreement AI provisions |
 | Iceland | CADIA (RU) + IHPC (HI) | Small | **Not measured** | **Nothing** |
 
