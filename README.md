@@ -105,7 +105,7 @@ python3 scripts/02_verify_textanalysis.py
 
 ### Niðurstaða 3: Hrun þekkingstarfa / Finding 3: The Knowledge-Occupation Collapse
 
-**Fullyrðing:** Á milli 2024 og 2025 töpuðust 9.300 þekkingarkrefjandi störf á Íslandi — flokkar 1–4 samkvæmt alþjóðlegri starfaflokkunarkerfinu ISCO (International Standard Classification of Occupations): -6,9% — á meðan 6.900 líkamleg störf og þjónustustörf bættust við (ISCO-flokkar 5–9: +7,4%). Hagkerfið dróst ekki saman — samsetning þess breyttist.
+**Fullyrðing:** Á milli 2024 og 2025 töpuðust 9.300 þekkingarkrefjandi störf á Íslandi — flokkar 1–4 samkvæmt alþjóðlega starfaflokkunarkerfinu ISCO (International Standard Classification of Occupations): -6,9% — á meðan 6.900 líkamleg störf og þjónustustörf bættust við (ISCO-flokkar 5–9: +7,4%). Hagkerfið dróst ekki saman — samsetning þess breyttist.
 
 **Claim:** Between 2024 and 2025, Iceland lost 9,300 knowledge-intensive jobs (ISCO groups 1-4: -6.9%) while gaining 6,900 physical and service jobs (ISCO groups 5-9: +7.4%). The economy did not contract — the composition shifted.
 
