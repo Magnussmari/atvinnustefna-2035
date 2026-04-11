@@ -65,6 +65,26 @@ Netfang: [SETJA INN NETFANG]
 
 ---
 
+## Rannsóknarverkefnið
+
+Þessi beiðni er hluti af opnu rannsóknarverkefni sem greinir mælingarhæfni íslenskra stofnana gagnvart áhrifum gervigreindar á vinnumarkað. Allar niðurstöður, heimildir og gögn eru birt opinberlega:
+
+**GitHub:** https://github.com/Magnussmari/atvinnustefna-2035
+
+---
+
+## Gagnsæisyfirlýsing
+
+Þessi beiðni var samin með aðstoð gervigreindarkerfis (Claude, Anthropic) sem höfundur hefur þróað sem hluta af rannsóknarverkefni sínu. Höfundur hefur farið yfir og staðfest efni beiðninnar í heild sinni áður en hún var send. Gervigreindin aðstoðaði við uppbyggingu texta og heimildavinnu; allar fullyrðingar, röksemdir og ákvarðanir eru á ábyrgð höfundar.
+
+---
+
+## Svartími
+
+Samkvæmt 17. gr. upplýsingalaga nr. 140/2012 er óskað eftir svari innan 7 virkra daga.
+
+---
+
 Virðingarfyllst,
 
 Magnús Smári Smárason

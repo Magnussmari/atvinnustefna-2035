@@ -70,13 +70,27 @@ MA í félagsvísindum, Háskólinn á Akureyri
 Rannsóknarsvið: Mælingarhæfni íslenskra stofnana gagnvart áhrifum gervigreindar á vinnumarkað og velferðarkerfi
 Meistararitgerð: „Beyond Fragmentation: A Life-Value Alternative for AI Governance" (2026, einkunn 9,5/10)
 Skemman: https://skemman.is/handle/1946/52173
-Leiðbeinandi: [SETJA INN NAFN LEIÐBEINANDA]
 Netfang: [SETJA INN NETFANG]
-Kennitala: [SETJA INN EF ÞÖRF KREFUR]
 
-Gögnin verða eingöngu notuð í fræðilegum tilgangi og eingöngu birt í samantektarformi. Engin tilraun verður gerð til að endurauðkenna einstaklinga. Rannsóknin hefur verið [lögð fyrir / verður lögð fyrir] viðeigandi siðanefnd.
+Gögnin verða eingöngu notuð í fræðilegum tilgangi og eingöngu birt í samantektarformi. Engin tilraun verður gerð til að endurauðkenna einstaklinga.
 
 Athugið: Jafnvel synjun þessarar beiðni er rannsóknarlega verðmæt — hún staðfestir gagnaeyðuna sem rannsóknin skráir.
+
+---
+
+## Rannsóknarverkefnið
+
+Þessi beiðni er hluti af opnu rannsóknarverkefni sem greinir mælingarhæfni íslenskra stofnana gagnvart áhrifum gervigreindar á vinnumarkað. Allar niðurstöður, heimildir og gögn eru birt opinberlega:
+
+**GitHub:** https://github.com/Magnussmari/atvinnustefna-2035
+
+---
+
+## Gagnsæisyfirlýsing
+
+Þessi beiðni var samin með aðstoð gervigreindarkerfis (Claude, Anthropic) sem höfundur hefur þróað sem hluta af rannsóknarverkefni sínu. Höfundur hefur farið yfir og staðfest efni beiðninnar í heild sinni áður en hún var send. Gervigreindin aðstoðaði við uppbyggingu texta og heimildavinnu; allar fullyrðingar, röksemdir og ákvarðanir eru á ábyrgð höfundar.
+
+Þessi vinnuaðferð — notkun gervigreindar sem rannsóknaraðstoðar undir mannlegri stjórn — er lýst í aðferðafræðikaflanum á GitHub-síðunni og í meistararitgerð höfundar.
 
 ---
 
