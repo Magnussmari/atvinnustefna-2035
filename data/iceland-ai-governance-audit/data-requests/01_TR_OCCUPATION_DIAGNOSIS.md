@@ -68,7 +68,7 @@ Verði beiðninni hafnað að hluta eða öllu leyti, óska ég eftir skriflegum
 Magnús Smári Smárason
 MA í félagsvísindum, Háskólinn á Akureyri
 Rannsóknarsvið: Mælingarhæfni íslenskra stofnana gagnvart áhrifum gervigreindar á vinnumarkað og velferðarkerfi
-Meistararitgerð: „Beyond Fragmentation: A Life-Value Alternative for AI Governance" (2026, 90 ECTS einingar, einkunn 9,5/10)
+Meistararitgerð: „Beyond Fragmentation: A Life-Value Alternative for AI Governance" (2026, 90 ECTS einingar)
 Verkefnasíða: https://www.smarason.is/is/verkefni/beyond-fragmentation
 Netfang: magnus@smarason.is
 
