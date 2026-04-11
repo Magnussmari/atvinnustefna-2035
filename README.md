@@ -1,10 +1,11 @@
 # Atvinnustefna Íslands 2035: Kerfisbundin blinda
 
-### Opin, gagnadrifin og sannreynanleg greining á atvinnustefnu Íslands til 2035
-### An open-source, computationally verified analysis of Iceland's Employment Policy 2035
+Þetta opna rannsóknarverkefni flettir ofan af alvarlegum brestum í Atvinnustefnu Íslands 2035. Með gögnum úr opinberum Hagstofu-töflum, sjálfvirkri textaagreiningu á stefnuskjalinu sjálfu, og samanburði við alþjóðlegar stofnanaskýrslur, sýnir greiningin fram á að íslensk stjórnvöld hafa sett fram tíu ára vaxtaráætlun sem lítur algjörlega fram hjá áhættu og röskun á vinnumarkaði vegna gervigreindar.
+
+*This open research project exposes critical blind spots in Iceland's Employment Policy 2035. Using public Hagstofa data, automated text extraction of the policy document itself, and comparison with international institutional reports, it demonstrates that Iceland's government has published a ten-year growth plan that completely ignores the risks of AI-driven workforce disruption.*
 
 > **Staða / Status:** Grunngreining lokið og sannprófuð af tveimur sjálfstæðum kerfum (Manus 1.6 + Claude Code). Bið eftir svörum 8 gagnaóska og samráðsgáttarfrest. Sjá [`ROADMAP.md`](ROADMAP.md).
-> *Core analysis complete and independently verified by two systems. Awaiting 8 data request responses. See [`ROADMAP.md`](ROADMAP.md).*
+> *Core analysis complete, independently verified by two systems. Awaiting 8 data request responses. See [`ROADMAP.md`](ROADMAP.md).*
 
 ---
 
