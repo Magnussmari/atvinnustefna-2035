@@ -22,5 +22,11 @@ data/*.pdf
 # Archived consultation PDFs (cited by URL instead)
 archive/samrad-pdfs/
 
+# Press materials — local drafts, not for public repo
+press/
+letters/
+*-bref.md
+*-frettatilkynning.md
+
 # Claude Code internal
 .claude/
