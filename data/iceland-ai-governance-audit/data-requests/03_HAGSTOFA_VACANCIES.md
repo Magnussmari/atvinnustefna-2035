@@ -1,7 +1,7 @@
 # Beiðni um gögn — Hagstofa Íslands
 
 **Viðtakandi:** upplysingar@hagstofa.is
-**Dagsetning:** [SETJA INN DAGSETNINGU]
+**Dagsetning:** 13. apríl 2026
 **Sendandi:** Magnús Smári Smárason, MA í félagsvísindum, Háskólinn á Akureyri
 
 ---
@@ -63,4 +63,4 @@ Virðingarfyllst,
 Magnús Smári Smárason
 MA í félagsvísindum, Háskólinn á Akureyri
 Netfang: magnus@smarason.is
-[DAGSETNING]
+13. apríl 2026

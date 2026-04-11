@@ -1,7 +1,7 @@
 # Beiðni um upplýsingar — Tryggingastofnun ríkisins
 
 **Viðtakandi:** tr@tr.is
-**Dagsetning:** [SETJA INN DAGSETNINGU]
+**Dagsetning:** 13. apríl 2026
 **Lagagrundvöllur:** Upplýsingalög nr. 140/2012, 5. gr.
 **Sendandi:** Magnús Smári Smárason, MA í félagsvísindum, Háskólinn á Akureyri
 
@@ -103,4 +103,4 @@ Samkvæmt 17. gr. upplýsingalaga nr. 140/2012 er óskað eftir svari innan 7 vi
 Virðingarfyllst,
 
 Magnús Smári Smárason
-[DAGSETNING]
+13. apríl 2026
