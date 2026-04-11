@@ -15,6 +15,14 @@
 
 ---
 
+## Rannsóknarsamhengi / Research Context
+
+Þessi greining er bein hagnýting hugtaka úr meistaraverkefni höfundar, [*Beyond Fragmentation: A Life-Value Alternative for AI Governance*](https://www.smarason.is/is/verkefni/beyond-fragmentation) (MA í félagsvísindum, Háskólinn á Akureyri, varið janúar 2026). Ritgerðin skilgreinir tvö kerfislæg vandamál í stjórnun gervigreindar — **ábyrgðarþoku** (*Responsibility Fog*: kerfisbundna dreifingu ábyrgðar þannig að enginn ber hana í raun) og **vitsmunalega skuld** (*Cognitive Debt*: rýrnun mannlegrar dómgreindar vegna vaxandi reikniritsháðar). Atvinnustefna Íslands 2035 sýnir bæði vandamálin í verki: stofnanir sem svara ekki (ábyrgðarþoka) og stefna sem mælir ekki það sem hún þyrfti að mæla (vitsmunalega skuldin).
+
+*This analysis directly applies concepts from the author's MA thesis, [Beyond Fragmentation: A Life-Value Alternative for AI Governance](https://www.smarason.is/is/verkefni/beyond-fragmentation) (MA in Social Sciences, University of Akureyri, defended January 2026). The thesis identifies two systemic failures in AI governance — **Responsibility Fog** (systematic diffusion of accountability across fragmented institutions) and **Cognitive Debt** (erosion of human judgment through growing algorithmic dependence). Iceland's Employment Policy 2035 demonstrates both: institutions that do not respond (Responsibility Fog) and a strategy that fails to measure what it needs to measure (Cognitive Debt).*
+
+---
+
 ## Tilgangur og afstaða / Objective and Intent
 
 **Þetta er ekki óttaáróður. Þetta er ekki pólitísk árás. Þetta er ekki tækniandstaða.**
