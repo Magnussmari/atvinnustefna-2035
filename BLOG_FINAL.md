@@ -246,6 +246,6 @@ Allar heimildir eru aðgengilegar í [opnu heimildaskránni (BibTeX)](/bibliogra
 
 ---
 
-*Þessi greining er hluti af opnu rannsóknarverkefni. Allar heimildir eru aðgengilegar, sannanlegar og opnar til gagnrýni. Aðferðafræðin byggir á [Smarason Method](https://smarason.is) — kerfisbundinni rannsóknaraðferðafræði sem notar margþrepa sannprófun og andstæðugreiningu.*
+*Þessi greining er hluti af opnu rannsóknarverkefni. Allar heimildir eru aðgengilegar, sannanlegar og opnar til gagnrýni. Aðferðafræðin byggir á rannsóknarramma sem þróaður var í gegnum meistaranám höfundar við Háskólann á Akureyri — sjá [Beyond Fragmentation: A Life-Value Alternative for AI Governance](https://www.smarason.is/en/projects/beyond-fragmentation).*
 
-*Höfundur: Magnús Smári Smárason | smarason.is*
+*Höfundur: Magnús Smári Smárason, MA | [smarason.is](https://smarason.is) | Akureyri*

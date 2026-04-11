@@ -1,10 +1,14 @@
 # Research Methodology
 
-## The Smarason Method Applied to Policy Analysis
+## Background
 
-This research was conducted using the [Smarason Method](https://smarason.is) — a systematic AI-assisted research methodology developed by the author. The method adapts cognitive patterns from emergency services (situational awareness, triage, parallel sector execution, adversarial debriefing) to research at scale.
+This research uses an evolving AI-assisted research methodology developed through the author's MA thesis work at the University of Akureyri and ongoing development.
 
-This project was executed at **Tier C (Production)** — the highest rigour level, with full verification, adversarial review, and reproducible artifacts.
+The thesis — [*Beyond Fragmentation: A Life-Value Alternative for AI Governance*](https://www.smarason.is/en/projects/beyond-fragmentation) (defended January 2026, grade 9.5/10) — examines how AI governance fails not through regulatory gaps but through two structural mechanisms: **Responsibility Fog** (the systematic diffusion of accountability across fragmented institutional structures) and **Cognitive Debt** (the compounding erosion of human judgment through algorithmic dependence). It proposes VALOR, a governance framework built on Life-Value Onto-Axiology, and validates it using a 775-node knowledge graph, 247 independently verified sources, and production systems.
+
+The research methodology applied here is a direct extension of that thesis work. It integrates parallel multi-agent research, adversarial review, computational verification, and structured anti-sycophancy protocols. The method adapts cognitive patterns from the author's sixteen years in emergency services (situational awareness, triage, parallel sector execution, adversarial debriefing) to research at scale.
+
+The same analytical lenses developed in the thesis — Responsibility Fog and measurement blindness — are applied here to Iceland's employment strategy. The finding that Iceland's policy infrastructure cannot detect AI-driven workforce disruption is a concrete instance of the thesis's theoretical argument: governance fails when the instruments of observation are absent.
 
 ---
 
@@ -105,12 +109,11 @@ brew install poppler    # for pdftotext (macOS)
 
 ## System
 
-- **Platform:** PAI (Personal AI Infrastructure) v2.4
-- **Engine:** Claude Code with Claude Opus 4.6 (1M context)
+- **Engine:** Claude Code (Anthropic) with Claude Opus 4.6 (1M context)
 - **Research agents:** 7 parallel sectors + adversarial oracle
 - **Web searches:** ~100+ across all sectors
 - **Total bibliography:** 98 verified entries with URLs
 
 ---
 
-*Magnús Smári Smárason, MA | [smarason.is](https://smarason.is) | April 2026*
+*Magnús Smári Smárason, MA | [smarason.is](https://smarason.is) | Akureyri, April 2026*

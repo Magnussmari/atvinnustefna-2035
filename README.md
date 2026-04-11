@@ -18,6 +18,20 @@
 
 ---
 
+## Objective and Intent
+
+**This is not fear-mongering. This is not a political attack. This is not anti-technology.**
+
+The Atvinnustefna Íslands 2035 contains genuine strengths. Its productivity diagnosis is empirically sound. The STEM investment (ISK 2.3 billion) addresses a real gap. The energy and data center strategy leverages a legitimate competitive advantage. The export diversification agenda is overdue and well-framed.
+
+The critique in this repository is specific and narrow: **the strategy does not engage with the risks of AI-driven workforce disruption.** It mentions AI three times — all as opportunity. It does not mention unemployment, automation, retraining, or disruption even once. Every major international institution (IMF, OECD, WEF, ILO) has published AI employment risk assessments. Iceland has none.
+
+This analysis positions itself as a **supplement to the strategy, not a replacement for it.** The strategy is good. The data foundation it rests on is incomplete. What is missing is the measurement infrastructure, risk assessment, and transition planning that would make the strategy's optimistic assumptions verifiable — and, if they prove wrong, correctable.
+
+The author invites all economists, policymakers, unions, and technology practitioners to test the data, challenge the findings, and propose better interpretations. The strongest known counterarguments are already documented in this repository ([evidence/07-adversarial-oracle.md](evidence/07-adversarial-oracle.md)).
+
+---
+
 ## The Three Key Findings
 
 ### 1. The Document Says Nothing About Risk
@@ -195,8 +209,9 @@ Full bibliography: [`bibliography/master.bib`](bibliography/master.bib) (98 entr
 
 ## Methodology
 
+The research methodology used here is an evolving AI-assisted research framework developed through the author's [MA thesis work](https://www.smarason.is/en/projects/beyond-fragmentation) at the University of Akureyri and ongoing development. The method integrates parallel multi-agent research, adversarial review, computational verification, and structured anti-sycophancy protocols.
+
 See [`METHODOLOGY.md`](METHODOLOGY.md) for the full research protocol, including:
-- The [Smarason Method](https://smarason.is) (Tier C Production)
 - Anti-sycophancy protocol
 - Adversarial Oracle design
 - Falsification standard (what would disprove the thesis)
@@ -220,19 +235,22 @@ See [`VERIFICATION_REPORT.md`](VERIFICATION_REPORT.md) for details.
 
 ## Contributing
 
-This is an open research project. If you find:
+This analysis positions itself as a contribution to Iceland's employment policy discourse, not a replacement for it. Counterarguments are welcomed — the strongest known ones are already documented.
+
+If you find:
 - **A broken source** — open an issue with the BibTeX key and the correct URL
 - **A factual error** — open an issue with the specific claim, the evidence against it, and a source
 - **Missing context** — open a PR with additional evidence, properly sourced
-
-The adversarial review (`evidence/07-adversarial-oracle.md`) lists the strongest known counterarguments. If you have a stronger one, that is especially valuable.
+- **A stronger counterargument** — this is especially valuable. See `evidence/07-adversarial-oracle.md` for the current set.
 
 ---
 
 ## Author
 
 **Magnús Smári Smárason, MA**
-[smarason.is](https://smarason.is) | Akureyri, April 2026
+[smarason.is](https://smarason.is) | Akureyri, Iceland
+
+MA in Social Sciences, University of Akureyri (UNAK), defended January 2026. Thesis: [*Beyond Fragmentation: A Life-Value Alternative for AI Governance*](https://www.smarason.is/en/projects/beyond-fragmentation) — examines how AI governance fails not through regulatory gaps but through two structural mechanisms: *Responsibility Fog* (the systematic diffusion of accountability across fragmented institutions) and *Cognitive Debt* (the compounding erosion of human judgment through algorithmic dependence). The concepts of Responsibility Fog and measurement blindness that appear in the MEGA_REPORT are direct applications of this thesis work to Icelandic employment policy.
 
 ## License
 
@@ -240,4 +258,4 @@ Open source. All data, analysis, and bibliography are freely available for verif
 
 ---
 
-*This repository exists because evidence-based policy requires evidence. The analysis is verifiable, the methodology is documented, the counterarguments are addressed, and the scripts are reproducible. Judge it on its sources.*
+*This repository exists because evidence-based policy requires evidence — and because the absence of measurement infrastructure is itself a governance failure, not a neutral gap. The analysis is verifiable, the methodology is documented, the counterarguments are addressed, and the scripts are reproducible. Judge it on its sources.*

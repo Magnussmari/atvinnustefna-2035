@@ -1,7 +1,7 @@
 # Research Synthesis: Atvinnustefna Íslands 2035
 
 **Date:** 2026-04-10
-**Method:** Smarason Method Tier C — 7-sector parallel research + adversarial review
+**Method:** 7-sector parallel research + adversarial review
 
 ---
 

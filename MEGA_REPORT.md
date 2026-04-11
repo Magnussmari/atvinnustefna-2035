@@ -1763,4 +1763,4 @@ The difference between those two outcomes cannot be detected with the instrument
 `/Users/magnussmari/Documents/VALOR/04_research/Atvinnustefna/data/iceland-ai-governance-audit/`
 
 *Magnus Smari Smarason, MA*
-*Reykjavik, April 2026*
+*Akureyri, April 2026*
