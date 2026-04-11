@@ -3,7 +3,8 @@
 ### Opin, gagnadrifin og sannreynanleg greining á atvinnustefnu Íslands til 2035
 ### An open-source, computationally verified analysis of Iceland's Employment Policy 2035
 
-> **Staða / Status:** Verk í vinnslu. Megingreining og sönnunargögn eru tilbúin. Skjölun er í endurskoðun. Leiðréttingar, gagnrýni og áskoranir eru velkomnar.
+> **Staða / Status:** Grunngreining lokið og sannprófuð af tveimur sjálfstæðum kerfum (Manus 1.6 + Claude Code). Bið eftir svörum 8 gagnaóska og samráðsgáttarfrest. Sjá [`ROADMAP.md`](ROADMAP.md).
+> *Core analysis complete and independently verified by two systems. Awaiting 8 data request responses. See [`ROADMAP.md`](ROADMAP.md).*
 
 ---
 
@@ -258,15 +259,18 @@ UNABLE TO VERIFY, and explain your reasoning.
 
 | Hluti / Component | Staða / Status |
 |-------------------|----------------|
-| MEGA_REPORT (heildargreining, ~1.800 línur) | Lokið / Complete |
-| BLOG_FINAL (blogg á íslensku) | Lokið — í yfirferð / Complete — under review |
-| Sönnunargögn (10 skrár) / Evidence base | Lokið / Complete |
-| Heimildaskrá (98 heimildir með vefslóðum) / Bibliography | Lokið — sannreynt / Complete — verified |
-| Hagstofu-gögn (150.346 raðir, 10 CSV-skrár) | Lokið / Complete |
-| Panopticon-rannsókn (15+ skýrslur) | Lokið / Complete |
-| Python-sannprófunarforrit (2) / Verification scripts | Lokið — prófað / Complete — tested |
-| Umsögn á samráðsgátt / Samráðsgátt submission | Í bið / Pending |
-| Fagfélaga- og ritrýni / Peer review | Opið — framlög velkomin / Open |
+| MEGA_REPORT (heildargreining, ~1.800 línur) | ✅ Lokið og leiðrétt / Complete, corrections applied |
+| BLOG_FINAL (blogg á íslensku) | ✅ Lokið — til yfirferðar / Complete — pending review |
+| Sönnunargögn (10 skrár) / Evidence base | ✅ Lokið / Complete |
+| Heimildaskrá (98 heimildir) / Bibliography | ✅ Sannprófað / Verified |
+| Hagstofu-gögn (150.346 raðir) / Hagstofa data | ✅ Lokið / Complete |
+| Sannprófun 5 niðurstaðna / Verification (5 findings) | ✅ Lokið — 2 kerfi / Complete — 2 systems |
+| Sannprófunarforrit × 2 / Verification scripts | ✅ Prófað / Tested |
+| 8 gagnaóskir / Data requests | ✅ Tilbúnar — bíða sendingar / Ready to send |
+| Umsögn á samráðsgátt / Samráðsgátt submission | ⏳ Í bið / Pending |
+| Birting bloggs / Blog publication | ⏳ Eftir yfirferð / After review |
+| ASÍ 46. þing — heildarlestur / Full resolution texts | 🔲 Eftir á / Future |
+| J62 tekjur 2025 (þegar aðgengilegar) / 2025 revenue data | 🔲 Þegar tiltækt / When available |
 
 ---
 
