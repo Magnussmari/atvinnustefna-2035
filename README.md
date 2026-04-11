@@ -88,22 +88,26 @@ python3 scripts/02_verify_textanalysis.py
 
 ### Niðurstaða 2: Þríhyrningur upplýsingatæknigeirans / Finding 2: The ICT Trifecta
 
-**Fullyrðing:** Upplýsingatæknigeirinn á Íslandi — NACE J samkvæmt evrópskri atvinnugreinaskiptingu — sýnir mynstur sem samræmist framleiðnitilfærslu: tekjur aukast verulega á meðan ráðningar fækka og lausar stöður hrynja nær núllstigi. Engin íslensk stofnun hafði tengt þessi þrjú merki saman í eina rannsóknarniðurstöðu áður.
+**Fullyrðing:** Upplýsingatæknigeirinn á Íslandi — NACE J samkvæmt evrópskri atvinnugreinaskiptingu — sýnir mynstur sem samræmist framleiðnitilfærslu: tekjur aukast á meðan ráðningar fækka og lausar stöður hrynja nær núllstigi. Engin íslensk stofnun hafði tengt þessi þrjú merki saman í eina rannsóknarniðurstöðu áður.
 
-**Claim:** Iceland's ICT sector (NACE J) shows a pattern consistent with productivity displacement: revenue surging while employment falls and vacancies collapse to near zero. No Icelandic institution assembled these three signals into a finding before this analysis.
+**Claim:** Iceland's ICT sector (NACE J) shows a pattern consistent with productivity displacement: revenue growing while employment falls and vacancies collapse to near zero. No Icelandic institution assembled these three signals into a finding before this analysis.
 
-**Gögn / Data:**
+**Gögn / Data — tveir tímaramar / Two baselines:**
 
-*Athugasemd um tímaramma / Timeframe note: Atvinnufækkun og hrun lausra starfa mælt 2022–2025. Tekjuaukning mælist +74,5% frá 2019→2024 (J62 tölvuþjónusta). Employment and vacancy signals 2022–2025; revenue +74.5% measured 2019→2024.*
+*Til að mæta lögmætri gagnrýni um COVID-bóluna 2022–2023 eru hér gefin upp bæði varfærnislegustu tölur (2022→2024/2025) og breiðari viðmiðun (2019→2024). Mynsturinn stendur hvort sem er.*
 
-| Merki / Signal | Breyting / Change | Hagstofu-tafla / Table |
-|----------------|-------------------|------------------------|
-| Tekjur (J62 tölvuþjónusta) / Revenue | **+74,5% (2019→2024)** | FYR04101 |
-| Fjöldi starfsmanna / Employment | **-1.300 störf (-11,4%)** | VIN01110 |
-| Hlutfall lausra starfa / Vacancy rate | **5,4% → 0,3% (-94%)** | JVS00001 |
-| Framleiðni vinnuafls / Labour productivity | **+10,5%** (hæst allra greina) | THJ11011 |
+*To address the legitimate concern that 2022–2023 ICT hiring was a post-COVID bubble, both the conservative reading (2022 baseline) and the broader baseline (2019) are presented. The pattern holds in both.*
 
-**Af hverju þetta skiptir máli:** Ef tekjur hækka er þetta ekki niðursveifla. Ef lausar stöður eru nálægt núlli eru fyrirtæki ekki að auglýsa eftir nýjum starfsmönnum — þau þurfa þeirra ekki. Ef framleiðni er í hæstu hæðum er unnið meira með færri. Þessi þrjú merki saman benda til einnar skýringar: framleiðnitilfærslu.
+| Merki / Signal | Varfærnislestur / Conservative (2022→) | Breiður lestur / Broad (2019→) | Tafla |
+|----------------|----------------------------------------|-------------------------------|-------|
+| Tekjur J62 / Revenue | **+28,1% (2022→2024)** | +74,5% (2019→2024) | FYR04101 |
+| Fjöldi starfsmanna / Employment | **-3% (2022→2025)** | -11,4% frá 2023-hámarki | VIN01110 |
+| Hlutfall lausra starfa / Vacancy rate | **5,4% → 0,3% (-94%)** | (sama / same) | JVS00001 |
+| Framleiðni vinnuafls / Labour productivity | **+10,5% (2025, hæst allra greina)** | (sama / same) | THJ11011 |
+
+**Af hverju mynsturinn stendur jafnvel í varfærnislegustu lestri:** Ef samdráttarinn 2022–2025 hefði verið eðlileg leiðrétting á COVID-bólu hefðu tekjur einnig hrapað. Þær jukust um 28%. Hrun lausra starfa úr 5,4% niður í 0,3% útiloka skilvirka önnur skýring: ef fyrirtæki hefðu þurft starfsfólk hefðu þau auglýst eftir því. Þau gerðu það ekki. Framleiðni í hæstu hæðum staðfestir: sama eða meiri framleiðsla — með færri starfsmönnum.
+
+**Why the pattern holds even in the conservative reading:** If the 2022–2025 decline were a COVID-bubble correction, revenue would also have fallen. It grew 28%. The vacancy collapse from 5.4% to 0.3% eliminates alternative explanations: if firms needed workers, they would have advertised for them. They did not. Record productivity confirms the rest: same or more output — with fewer workers.
 
 **Heimild / Source:** Hagstofa Íslands, PxWeb — gagnagrunnsþjónusta Hagstofunnar. Hrágögn í CSV-formi í `data/iceland-ai-governance-audit/data/raw/`.
 
@@ -112,6 +116,9 @@ python3 scripts/02_verify_textanalysis.py
 ---
 
 ### Niðurstaða 3: Hrun þekkingstarfa / Finding 3: The Knowledge-Occupation Collapse
+
+> **Þetta er ekki spá. Þetta er skráning á því sem þegar hefur gerst.**
+> *This is not a forecast. This is a record of what has already occurred.*
 
 **Fullyrðing:** Á milli 2024 og 2025 töpuðust 9.300 þekkingarkrefjandi störf á Íslandi — flokkar 1–4 samkvæmt alþjóðlega starfaflokkunarkerfinu ISCO (International Standard Classification of Occupations): -6,9% — á meðan 6.900 líkamleg störf og þjónustustörf bættust við (ISCO-flokkar 5–9: +7,4%). Hagkerfið dróst ekki saman — samsetning þess breyttist.
 
@@ -132,7 +139,9 @@ python3 scripts/02_verify_textanalysis.py
 | Ósérhæft starfsfólk / Elementary occupations | 12.200 | 12.600 | +400 |
 | **Samtals líkamleg/þjónusta / Total non-knowledge** | **93.000** | **99.900** | **+6.900 (+7,4%)** |
 
-**Af hverju þetta skiptir máli:** Stefnan mælir með meiri STEM-menntun og fjárfestingu í þekkingargeiranum — en þekkingargeirinn er þegar að dragast saman. Meðalið er öfugt við merkið.
+**Af hverju þetta skiptir máli:** Stefnan mælir með meiri STEM-menntun og fjárfestingu í þekkingargeiranum — en þekkingargeirinn er þegar að dragast saman. Þetta afsannar beinlínis þá forsendu atvinnustefnunnar að STEM-menntun tryggi öruggar atvinnulegar horfur: árið 2024–2025 töpuðust hlutfallslega flest störf meðal þeirra sem hafa slíka menntun. Meðalið er öfugt við merkið.
+
+*Why this matters: The strategy prescribes more STEM investment for a knowledge sector that is already contracting. This directly falsifies the policy's premise. In 2024–2025, the steepest proportional job losses were among the most educated workers. The prescription contradicts the signal.*
 
 **Heimild / Source:** Hagstofa Íslands VIN01100. Hrágögn: `data/iceland-ai-governance-audit/data/raw/employment_by_occupation_annual.csv`.
 
@@ -361,6 +370,10 @@ Heildarsamantekt: [`MASTER_VERIFICATION_SUMMARY.md`](verification/Manus/MASTER_V
 - **Staðreyndavilla** / Factual error — opnaðu mál með tiltekinni fullyrðingu, sönnunargögnum á móti og heimild
 - **Sterkara andmæli** / Stronger counterargument — sérstaklega dýrmætt. Sjá `evidence/07-adversarial-oracle.md`
 - **Vantar samhengi** / Missing context — opnaðu pull request með viðbótarsönnunargögnum og heimildum
+
+**Athugasemd um áhrifamátt / A note on impact:** Gögn ein og sér breyta ekki kerfum sem lúta pólitískum hvötum. Stjórnvöld hunsuðu gervigreindina í stefnunni ekki vegna vanþekkingar — heldur vegna þess að viðurkenning á röskun krefst dýrra og óvinsælla aðgerða strax. Þess vegna er þetta verkefni opið: gögn sem eru opin, aðferðafræði sem er endurgeranlegar og gagnrýni sem er velkomin eru sterkari en lokaðar skýrslur. Ef þú finnur sterkara andmæli við niðurstöður þessar — sérstaklega varðandi tímarammavilluna í Niðurstöðu 2 — er það dýrmætt framlag.
+
+*Data alone does not change systems driven by political incentives. This project is open precisely because open, reproducible evidence is harder to dismiss than a closed report. If you find a stronger counterargument — especially on the timeframe issue in Finding 2 — that is the most valuable contribution you can make.*
 
 ---
 
