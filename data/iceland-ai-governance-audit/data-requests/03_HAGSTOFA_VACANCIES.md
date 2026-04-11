@@ -62,5 +62,5 @@ Virðingarfyllst,
 
 Magnús Smári Smárason
 MA í félagsvísindum, Háskólinn á Akureyri
-Netfang: [SETJA INN NETFANG]
+Netfang: magnus@smarason.is
 [DAGSETNING]

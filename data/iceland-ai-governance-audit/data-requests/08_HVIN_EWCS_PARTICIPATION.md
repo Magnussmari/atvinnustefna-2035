@@ -54,8 +54,9 @@ Könnun Vörðu (2026, n=25.000) er mikilvæg innanlandskönnun, en hún er ekki
 
 Magnús Smári Smárason
 MA í félagsvísindum, Háskólinn á Akureyri
-Meistararitgerð: „Beyond Fragmentation: A Life-Value Alternative for AI Governance" (2026)
-Netfang: [SETJA INN NETFANG]
+Meistararitgerð (90 ECTS): „Beyond Fragmentation: A Life-Value Alternative for AI Governance" (2026)
+Verkefnasíða: https://www.smarason.is/is/verkefni/beyond-fragmentation
+Netfang: magnus@smarason.is
 
 ---
 

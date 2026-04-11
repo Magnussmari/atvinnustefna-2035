@@ -60,8 +60,9 @@ Beiðni þessi er sett fram á grundvelli 5. gr. upplýsingalaga nr. 140/2012. E
 
 Magnús Smári Smárason
 MA í félagsvísindum, Háskólinn á Akureyri
-Meistararitgerð: „Beyond Fragmentation: A Life-Value Alternative for AI Governance" (2026)
-Netfang: [SETJA INN NETFANG]
+Meistararitgerð (90 ECTS): „Beyond Fragmentation: A Life-Value Alternative for AI Governance" (2026)
+Verkefnasíða: https://www.smarason.is/is/verkefni/beyond-fragmentation
+Netfang: magnus@smarason.is
 
 ---
 
