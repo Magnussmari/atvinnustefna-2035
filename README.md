@@ -1,6 +1,6 @@
 # Atvinnustefna Íslands 2035: Kerfisbundin blinda
 
-Þetta opna rannsóknarverkefni flettir ofan af alvarlegum brestum í Atvinnustefnu Íslands 2035. Með gögnum úr opinberum Hagstofu-töflum, sjálfvirkri textaagreiningu á stefnuskjalinu sjálfu, og samanburði við alþjóðlegar stofnanaskýrslur, sýnir greiningin fram á að íslensk stjórnvöld hafa sett fram tíu ára vaxtaráætlun sem lítur algjörlega fram hjá áhættu og röskun á vinnumarkaði vegna gervigreindar.
+Þetta opna rannsóknarverkefni flettir ofan af alvarlegum brestum í Atvinnustefnu Íslands 2035. Með gögnum úr töflum Hagstofunnar, sjálfvirkri textaagreiningu á stefnuskjalinu sjálfu og samanburði við alþjóðlegar stofnanaskýrslur leiðir greiningin í ljós að íslensk stjórnvöld hafa sett fram tíu ára vaxtaráætlun sem lítur algjörlega fram hjá áhættu og röskun á vinnumarkaði vegna gervigreindar.
 
 *This open research project exposes critical blind spots in Iceland's Employment Policy 2035. Using public Hagstofa data, automated text extraction of the policy document itself, and comparison with international institutional reports, it demonstrates that Iceland's government has published a ten-year growth plan that completely ignores the risks of AI-driven workforce disruption.*
 
@@ -19,13 +19,13 @@
 
 **Þetta er ekki óttaáróður. Þetta er ekki pólitísk árás. Þetta er ekki tækniandstaða.**
 
-Atvinnustefna Íslands 2035 hefur raunverulega kosti. Greining hennar á framleiðnivanda landsins er empirískt traust. STEM-fjárfestingin (2,3 milljarðar króna) tekur á raunverulegum skorti. Orku- og gagnaverstefnan nýtir samkeppnisforskot sem er lögmætt. Stefnan um fjölbreyttari útflutning er nauðsynleg og vel útfærð.
+Atvinnustefna Íslands 2035 hefur raunverulega kosti. Greining hennar á framleiðnivanda landsins er vel undirbyggð. STEM-fjárfestingin (2,3 milljarðar króna) tekur á raunverulegum skorti. Orku- og gagnaverstefnan nýtir samkeppnisforskot sem er lögmætt. Stefnan um fjölbreyttari útflutning er nauðsynleg og vel útfærð.
 
-Gagnrýnin í þessu verkefni er afmörkuð og nákvæm: **stefnan tekst ekki á við áhættuna af kerfislægri röskun á vinnumarkaði vegna gervigreindar.** Hún nefnir gervigreind þrisvar — allt sem tækifæri. Hún nefnir ekki einu sinni atvinnuleysi, sjálfvirknivæðingu, endurmenntun eða röskun. Allar helstu alþjóðlegar stofnanir (AGS, OECD, WEF, ILO) hafa birt áhættumat á þessu sviði. Ísland hefur ekkert slíkt.
+Gagnrýnin í þessu verkefni er afmörkuð og nákvæm: **stefnan tekst ekki á við áhættuna af kerfislægri röskun á vinnumarkaði vegna gervigreindar.** Hún nefnir gervigreind þrisvar — allt sem tækifæri. Hún nefnir ekki einu sinni atvinnuleysi, sjálfvirknivæðingu, endurmenntun eða röskun. Allar helstu alþjóðlegar stofnanir (IMF, OECD, WEF, ILO) hafa birt áhættumat á þessu sviði. Ísland hefur ekkert slíkt.
 
 Þessi greining er **viðbót við stefnuna, ekki staðgengill hennar.** Stefnan er góð. Gagnagrunnurinn sem hún hvílir á er ófullnægjandi. Það sem vantar er mælingarinnviði, áhættumat og umbreytingarstuðningur sem gæti gert bjartsýnar forsendur stefnunnar sannreynanlegar — og leiðréttanlegar ef þær reynast rangar.
 
-Höfundur býður öllum hagfræðingum, stefnumótendum, stéttarfélögum og tæknifólki að prófa gögnin, véfengja niðurstöðurnar og leggja til betri túlkanir. Sterkustu þekktu andmælin eru þegar skráð í þessu verkefni ([evidence/07-adversarial-oracle.md](evidence/07-adversarial-oracle.md)).
+Höfundur býður öllum hagfræðingum, stefnumótendum, stéttarfélögum og tæknifólki að prófa gögnin, véfengja niðurstöðurnar og leggja til betri túlkanir. Þekktustu mótrökin eru þegar skráð í þessu verkefni ([evidence/07-adversarial-oracle.md](evidence/07-adversarial-oracle.md)).
 
 ---
 
@@ -80,7 +80,7 @@ python3 scripts/02_verify_textanalysis.py
 
 ### Niðurstaða 2: Þríhyrningur upplýsingatæknigeirans / Finding 2: The ICT Trifecta
 
-**Fullyrðing:** Upplýsingatæknigeirinn á Íslandi (NACE J) sýnir mynstur sem samræmist framleiðnitilfærslu: tekjur hækka skyndilega á meðan atvinnuþátttaka minnkar og lausar stöður hrynja niður í núll. Engin íslensk stofnun hafði sett þessi þrjú merki saman í eina niðurstöðu áður en þessi greining var gerð.
+**Fullyrðing:** Upplýsingatæknigeirinn á Íslandi (NACE J) sýnir mynstur sem samræmist framleiðnitilfærslu: tekjur aukast verulega á meðan ráðningar fækka og lausar stöður hrynja nær núllstigi. Engin íslensk stofnun hafði tengt þessi þrjú merki saman í eina rannsóknarniðurstöðu áður.
 
 **Claim:** Iceland's ICT sector (NACE J) shows a pattern consistent with productivity displacement: revenue surging while employment falls and vacancies collapse to near zero. No Icelandic institution assembled these three signals into a finding before this analysis.
 
@@ -95,7 +95,7 @@ python3 scripts/02_verify_textanalysis.py
 | Hlutfall lausra starfa / Vacancy rate | **5,4% → 0,3% (-94%)** | JVS00001 |
 | Framleiðni vinnuafls / Labour productivity | **+10,5%** (hæst allra greina) | THJ11011 |
 
-**Af hverju þetta skiptir máli:** Ef tekjur hækka er þetta ekki niðursveifla. Ef lausar stöður eru nálægt núlli eru fyrirtæki ekki að leita að staðgenglum — þau þurfa þá ekki. Ef framleiðni er í hæstu hæðum er unnið meira með færri. Þessi þrjú merki saman benda til einnar skýringar: framleiðnitilfærslu.
+**Af hverju þetta skiptir máli:** Ef tekjur hækka er þetta ekki niðursveifla. Ef lausar stöður eru nálægt núlli eru fyrirtæki ekki að auglýsa eftir nýjum starfsmönnum — þau þurfa þeirra ekki. Ef framleiðni er í hæstu hæðum er unnið meira með færri. Þessi þrjú merki saman benda til einnar skýringar: framleiðnitilfærslu.
 
 **Heimild / Source:** Hagstofa Íslands, PxWeb-þjónusta. Hrágögn í CSV-formi í `data/iceland-ai-governance-audit/data/raw/`.
 
@@ -162,7 +162,7 @@ Að auki er 17% misræmi á milli tveggja opinberra atvinnuleysismælinga á Ís
 
 ### Niðurstaða 5: Stofnanaþögnin / Finding 5: The Institutional Silence
 
-**Fullyrðing:** Þegar ríkisstjórnin birti aðgerðaáætlun sína um gervigreind til samráðs — skjal sem spáir því að 130.000 starfsmenn (55%) verði „fyrir miklum áhrifum" gervigreindar — sendi ekki eitt einasta stórt stéttarfélag umsögn. Stærsti þing verkalýðshreyfingarinnar samþykkti engar ályktanir um gervigreind.
+**Fullyrðing:** Þegar ríkisstjórnin birti aðgerðaáætlun sína um gervigreind til samráðs — skjal sem spáir því að 130.000 starfsmenn (55%) verði „fyrir miklum áhrifum" gervigreindar — sendi ekki eitt einasta stórt stéttarfélag umsögn. Stærsta þing verkalýðshreyfingarinnar samþykkti engar ályktanir um gervigreind.
 
 **Claim:** When Iceland's government published its AI Action Plan for consultation — a document projecting that 130,000 workers (55%) will be "greatly affected" by AI — not a single major labour union submitted a response. Iceland's largest union congress produced zero resolutions on AI.
 
@@ -175,7 +175,7 @@ Að auki er 17% misræmi á milli tveggja opinberra atvinnuleysismælinga á Ís
 | Árleg vinnustaðakönnun VR | **Engir gervigreindarvísar mældir** |
 | Íslenskir kjarasamningar | **Engin ákvæði um gervigreind** |
 
-Á sama tíma svöruðu 25.000 launþegar könnun Vörðu (2026): 23% sögðust hafa orðið fyrir áhrifum tæknibreytinga, 36% óttast atvinnumissi, 45% telja þjálfun ónóga, 44% segjast búa við aukið vinnuálag (56% meðal innflytjenda).
+Á sama tíma tóku 25.000 launþegar þátt í könnun Vörðu (2026) og niðurstöðurnar sýna: 23% sögðust hafa orðið fyrir áhrifum tæknibreytinga, 36% óttast atvinnumissi, 45% telja þjálfun ónóga, 44% segjast búa við aukið vinnuálag (56% meðal innflytjenda).
 
 **Heimildir / Sources:**
 - Samráðsgátt, aðgerðaáætlun gervigreindar: https://island.is/samradsgatt/mal/3862
@@ -231,19 +231,19 @@ UNABLE TO VERIFY, and explain your reasoning.
 
 ## Alþjóðlegt samhengi / International Context
 
-Þessar eru alþjóðlegu viðmiðanirnar sem vanræksla Íslands ber að meta við.
+Eftirfarandi alþjóðlegar skýrslur setja vanrækslu Íslands í samhengi.
 
 | Stofnun / Institution | Meginniðurstaða / Key Finding | Heimild / Source |
 |------------------------|-------------------------------|------------------|
-| **AGS** / IMF (2024) | 40% starfa á heimsvísu verða fyrir áhrifum; **60% í þróuðum ríkjum** | [imf.org](https://www.imf.org/en/blogs/articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity) |
+| **IMF** (2024) | 40% starfa á heimsvísu verða fyrir áhrifum; **60% í þróuðum ríkjum** | [imf.org](https://www.imf.org/en/blogs/articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity) |
 | **WEF** (2025) | 92M störf hverfa, 170M skapast til 2030; **39% hæfni úreldist** | [weforum.org](https://www.weforum.org/publications/the-future-of-jobs-report-2025/) |
 | **OECD** (2025) | **27% starfa í OECD-ríkjum** í mestri sjálfvirknihættu | [oecd.org](https://www.oecd.org/en/publications/oecd-employment-outlook-2025_194a947b-en.html) |
 | **ILO** (2025) | 25% starfa útsett; **34% í hátekjulöndum**; konur 9,6% á móti körlum 3,5% í mestri hættu | [ilo.org](https://www.ilo.org/publications/generative-ai-and-jobs-2025-update) |
-| **Goldman Sachs** (2023) | **300M full-time störf** útsett; 18% vinnu sjálfvirknivæðanleg | [goldmansachs.com](https://www.goldmansachs.com/insights/articles/generative-ai-could-raise-global-gdp-by-7-percent) |
+| **Goldman Sachs** (2023) | **300 milljónar stöðugilda** útsett á heimsvísu; 18% vinnu sjálfvirknivæðanleg | [goldmansachs.com](https://www.goldmansachs.com/insights/articles/generative-ai-could-raise-global-gdp-by-7-percent) |
 | **McKinsey** (2023) | 60–70% starfsemi sjálfvirknivæðanleg; **$6,1–7,9 billjón** árleg verðmæti | [mckinsey.com](https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier) |
 | **Challenger** (mars 2026) | Gervigreind aðalástæða uppsagna í BNA: **15.341 (25%)** á einum mánuði | [challengergray.com](https://www.challengergray.com/blog/challenger-report-march-cuts-rise-25-from-february-ai-leads-reasons/) |
 | **NBER/Duke** (2026) | 750 fjármálastjórar spá **502.000 gervigreindaruppsögnum** árið 2026 (9-föld aukning) | [fortune.com](https://fortune.com/2026/03/24/cfo-survey-ai-job-cuts-productivity-paradox-2026/) |
-| **AGS Danmerkur-rannsókn** / IMF Denmark (2025) | Landssérstök greining á áhrifum gervigreindar á vinnumarkað — **einmitt það sem Ísland vantar** | [imf.org](https://www.imf.org/en/publications/selected-issues-papers/issues/2025/08/25/the-impact-of-artificial-intelligence-on-denmarks-labor-market-569930) |
+| **IMF — Danmörk** (2025) | Landssérstök greining á áhrifum gervigreindar á vinnumarkað — **einmitt það sem Ísland á eftir að gera** | [imf.org](https://www.imf.org/en/publications/selected-issues-papers/issues/2025/08/25/the-impact-of-artificial-intelligence-on-denmarks-labor-market-569930) |
 
 ### Lykilfræðigreinar / Key Academic Papers
 
@@ -307,7 +307,7 @@ python3 scripts/01_verify_urls.py              # sannreynir allar 94 vefslóðir
 
 ## Aðferðafræði / Methodology
 
-Rannsóknaraðferðin er þróunarverkefni sem á rætur í [meistaraverkefni höfundar](https://www.smarason.is/en/projects/beyond-fragmentation) við Háskólann á Akureyri og áframhaldandi þróunarvinnu. Aðferðin sameinar samhliða fjölþátta rannsóknir, andstæðugreiningu, tölvulega sannprófun og skipulögð varnartæki gegn sýndarsættni gervigreindar. Sjá [`METHODOLOGY.md`](METHODOLOGY.md) fyrir fulla aðferðarlýsingu.
+Rannsóknaraðferðin er þróunarverkefni sem á rætur í [meistaraverkefni höfundar](https://www.smarason.is/en/projects/beyond-fragmentation) við Háskólann á Akureyri og áframhaldandi þróunarvinnu. Aðferðin sameinar samhliða fjölþátta rannsóknir, andstæðugreiningu, tölvulega sannprófun og kerfisbundin varnartæki gegn sýndarsættni gervigreindar. Sjá [`METHODOLOGY.md`](METHODOLOGY.md) fyrir fulla aðferðarlýsingu.
 
 *An evolving AI-assisted research framework developed through the author's [MA thesis work](https://www.smarason.is/en/projects/beyond-fragmentation) at the University of Akureyri. See [`METHODOLOGY.md`](METHODOLOGY.md) for the full protocol.*
 
@@ -361,7 +361,7 @@ Heildarsamantekt: [`MASTER_VERIFICATION_SUMMARY.md`](verification/Manus/MASTER_V
 **Magnús Smári Smárason, MA**
 [smarason.is](https://smarason.is) | Akureyri, Ísland
 
-Meistarapróf í félagsvísindum frá Háskólanum á Akureyri, varið í janúar 2026. Ritgerð: [*Beyond Fragmentation: A Life-Value Alternative for AI Governance*](https://www.smarason.is/en/projects/beyond-fragmentation) — rannsakar hvernig stjórnun gervigreindar bregst ekki vegna regluverkseyða heldur vegna tveggja kerfislægra vandamála: *ábyrgðarþoku* (kerfisbundin dreifing ábyrgðar yfir sundurgreindar stofnanir) og *vitsmunalegrar skuldar* (vaxandi rýrnun mannlegrar dómgreindar vegna reikniritsháðrar ákvarðanatöku). Hugtökin ábyrgðarþoka og mælingarblinda sem birtast í MEGA_REPORT eru bein hagnýting þessarar ritgerðar á íslenska atvinnustefnu.
+Meistarapróf í félagsvísindum frá Háskólanum á Akureyri, varið í janúar 2026. Ritgerð: [*Beyond Fragmentation: A Life-Value Alternative for AI Governance*](https://www.smarason.is/en/projects/beyond-fragmentation) — rannsakar hvernig stjórnun gervigreindar bregst — ekki vegna regluverkseyða heldur vegna tveggja kerfislægra fyrirbæra: *ábyrgðarþoku* (kerfisbundinnar dreifingar ábyrgðar yfir sundurgreindar stofnanir) og *vitsmunalegrar skuldar* (vaxandi rýrnunar mannlegrar dómgreindar í kjölfar reikniritsháðrar ákvarðanatöku). Hugtökin ábyrgðarþoka og mælingarblinda sem birtast í MEGA_REPORT eru bein hagnýting þessarar ritgerðar á íslenska atvinnustefnu.
 
 *MA in Social Sciences, University of Akureyri (UNAK), defended January 2026. Thesis examines how AI governance fails through Responsibility Fog and Cognitive Debt — concepts applied directly to Icelandic employment policy in the MEGA_REPORT.*
 
@@ -373,6 +373,6 @@ Opinn hugbúnaður. Öll gögn, greining og heimildaskrá eru frjáls til sannpr
 
 ---
 
-*Þetta verkefni er til vegna þess að gagnadrifin stefnumótun krefst gagna — og vegna þess að fjarvera mælingarinnviða er sjálf stjórnunarbrestur, ekki hlutlaust gat. Greiningin er sannreynanleg, aðferðafræðin skráð, andmælin meðhöndluð og forritin endurgeranlegar. Dæmið um heimildir hennar.*
+*Þetta verkefni er til vegna þess að gagnadrifin stefnumótun krefst gagna — og vegna þess að fjarvera mælingarinnviða er sjálf stjórnunarbrestur, ekki hlutlægt gat. Greiningin er sannreynanleg, aðferðafræðin skráð, andmælin meðhöndluð og forritin endurgeranlegar. Dæmdu um hana á grundvelli heimildanna.*
 
 *This repository exists because evidence-based policy requires evidence — and because the absence of measurement infrastructure is itself a governance failure, not a neutral gap. The analysis is verifiable, the methodology is documented, the counterarguments are addressed, and the scripts are reproducible. Judge it on its sources.*
