@@ -383,4 +383,21 @@ Opinn hugbúnaður. Öll gögn, greining og heimildaskrá eru frjáls til sannpr
 
 *Þetta verkefni er til vegna þess að gagnadrifin stefnumótun krefst gagna — og vegna þess að fjarvera mælingarinnviða er sjálf stjórnunarbrestur, ekki hlutlægt gat. Greiningin er sannreynanleg, aðferðafræðin skráð, andmælin meðhöndluð og forritin endurgeranlegar. Dæmdu um hana á grundvelli heimildanna.*
 
+---
+
+## Uppfærslur / Update Log
+
+| Dagsetning | Breyting |
+|------------|----------|
+| 2026-04-10 | Upphaflegt útgáfa — MEGA_REPORT, sönnunargögn, heimildaskrá, GitHub |
+| 2026-04-10 | README tvítyngdur (íslenska og enska), fimm lykilniðurstöður |
+| 2026-04-11 | Manus 1.6 sannprófun á ICT Trifecta (Finding 2) |
+| 2026-04-11 | Innri sannprófun allra 5 niðurstaðna — Claude Code agents |
+| 2026-04-11 | Þrjár nákvæmnilagfæringar beitt úr sannprófunarferlinu |
+| 2026-04-11 | 8 gagnaóskir útbúnar (TR, VMST, Hagstofa, Sjúkratryggingar, Ríkisendurskoðun, Forsætisráðuneytið, HVIN) |
+| 2026-04-11 | ROADMAP.md bætt við — verkáætlun og forgangslisti |
+| 2026-04-11 | Opnunarmálsgrein endurskrifuð á mannamáli (ábending frá Hinrik Sigurðssyni, UNAK) |
+| 2026-04-11 | Málfræðileg og stílleg hreinlæti — 14 villur lagfærðar, 12 skammstafanir útskýrðar |
+| 2026-04-11 | Rannsóknarsamhengi bætt við — tengsl við MA-ritgerð Beyond Fragmentation |
+
 *This repository exists because evidence-based policy requires evidence — and because the absence of measurement infrastructure is itself a governance failure, not a neutral gap. The analysis is verifiable, the methodology is documented, the counterarguments are addressed, and the scripts are reproducible. Judge it on its sources.*
