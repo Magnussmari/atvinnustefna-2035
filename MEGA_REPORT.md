@@ -507,6 +507,42 @@ Norway — not an EU member, structurally comparable to Iceland — addressed al
 
 The Varda 2026 survey (n=25,000, the largest ever Icelandic worker survey, published February 2026) provides the first ground-truth measurement of worker experience: 23% of Icelandic workers report their jobs have changed or will change due to technology. Of those affected workers, 36% fear job loss. 44% report increased work pressure after technology changes (56% among immigrant workers). 45% feel they have received inadequate training for the technology being deployed. The workers know. The institutions are silent.
 
+### 3.4.2 The Atvinnustefna Consultation Confirms the Pattern (S-226/2025)
+
+The institutional silence documented above refers to the AI Action Plan consultation (S-223/2024). A critic might argue this was a narrow, technical document that unions reasonably deprioritized. This defense collapses when the Atvinnustefna's own consultation record is examined.
+
+The draft Vaxtarplan til 2035 was published for consultation on November 14, 2025 (Samráðsgátt, Mál nr. S-226/2025). The consultation ran for three weeks and received **94 submissions** — the broadest stakeholder engagement in the policy process. This time, the major unions did participate. ASÍ and BSRB filed a joint 5-page submission. VR filed 3 pages. Efling filed 2 pages. BHM filed 3 pages.
+
+**The question is what they said about AI.**
+
+The answer, established by reading all four union submissions in full (18 pages total), is: **nothing.**
+
+| Submission | Pages | AI mentioned? | Displacement risk? | AI reskilling? | Nordic AI frameworks? |
+|------------|-------|--------------|-------------------|----------------|---------------------|
+| ASÍ + BSRB (#29) | 5 | **No** | **No** | Generic only | **No** |
+| BHM (#33) | 3 | **No** | **No** | **No** | **No** |
+| VR (#36) | 3 | **No** | Generic "tech changes" | Generic | **No** |
+| Efling (#38) | 2 | **No** | **No** | **No** | **No** |
+
+*Sources: PDFs downloaded from Samráðsgátt API. Full analysis: [`evidence/08-samradsgatt-s226-analysis.md`](evidence/08-samradsgatt-s226-analysis.md). API endpoint: `https://samradapi.island.is/api/Cases/4111/advices`*
+
+**ASÍ + BSRB** (submission #29, signed by Finnbjörn A. Hermannsson, Forseti ASÍ, and Sonja Ýr Þorbergsdóttir, Formaður BSRB): The national labor confederation's joint submission addresses infrastructure, R&D funding, STEM education, tourism labor conditions, trade agreements, and pension fund reform. The word "gervigreind" does not appear. The word "sjálfvirknivæðing" does not appear. The 130,000-worker AI impact projection from the government's own AI Action Plan — published one year earlier — is not referenced. The submission mentions "upskilling" (færni atvinnuleitenda) in the context of expanding Vinnumálastofnun's general mandate, not in any AI-specific framing. Norway's LO-NHO AI provisions are not referenced despite ASÍ being the direct structural equivalent of LO.
+
+**VR** (submission #36, signed by Halla Gunnarsdóttir, formaður VR): VR mentions "tæknibreytingar" (technology changes) as a general context for labor market transition but does not engage with AI as a specific, documented driver of service-sector displacement. VR represents 30,000+ commercial and service workers — the same sector where Klarna demonstrated that AI can halve headcount while doubling revenue. VR calls for regular skills-needs forecasting ("Spá um færniþörf verði greind reglulega") — a welcome recommendation that nonetheless does not identify AI as the primary variable to forecast.
+
+**Efling** (submission #38): Efling's two-page submission contains zero references to technology of any kind. No mention of gervigreind, sjálfvirknivæðing, tækni, or röskun. The submission is entirely focused on social infrastructure and inequality — legitimate priorities, but offering no engagement with the technological transformation reshaping its members' work.
+
+**BHM** (submission #33, signed by Kolbrún Halldórsdóttir, formaður BHM): BHM's submission addresses university funding, graduate wages, and the student loan system. It does not mention AI. BHM represents ISCO groups 1-3 — the knowledge workers who lost 8,700 jobs in 2024-2025. The federation representing the most AI-exposed workforce segment wrote about the employment strategy without mentioning the technology most likely to displace its members.
+
+**Even Iceland's AI research centers avoided the displacement question.** Almannarómur, CADIA, and Gervigreindasetur HÍ (#49, 5 pages) — the institutions best positioned to analyze AI's labor market impact — submitted a detailed, technically competent document focused entirely on AI as infrastructure and opportunity. They acknowledged that "gífurlegar breytingar séu að vænta á ýmsum atvinnugreinum" [massive changes are expected across industries] but did not call for any mechanism to monitor, measure, or mitigate the labor market consequences. The organizations that build AI chose not to warn about its displacement effects.
+
+**The double silence:** The institutional gap is not a single-consultation anomaly. It is a verified pattern across both consultations. When the government asked about AI specifically (S-223/2024), unions did not show up. When the government asked about employment strategy broadly (S-226/2025), unions showed up but did not mention AI. No Icelandic institution — labor, academic, or governmental — has produced a consultation submission that analyzes AI's labor market displacement risk using Icelandic data.
+
+The consultation record for both cases is independently verifiable:
+- S-223/2024 (AI Action Plan): https://island.is/samradsgatt/mal/3862 (API: Cases/3862)
+- S-226/2025 (Atvinnustefna): https://island.is/samradsgatt/mal/S-226-2025 (API: Cases/4111)
+- All PDFs archived in `data/samrad_s226/` (88 submissions, 28MB)
+
 The institutional silence is now regionally conspicuous. The Nordic AI Union Summit — held in Oslo on March 19, 2026, just three weeks before the publication of this strategy — brought together labor unions from all five Nordic countries specifically to "strengthen collective voice and secure real influence over how AI is introduced, governed, and negotiated at work." Iceland's unions were present as observers. They observed what their Norwegian, Danish, Swedish, and Finnish counterparts have built: collective agreement frameworks, notification rights, AI clauses. They returned to Iceland with no equivalent domestic achievement and to a government strategy that did not mention the summit had occurred.
 
 ### 3.5 Omission Five: The Discourse-Reality Gap
@@ -1363,11 +1399,14 @@ That institutional blindness — not displacement itself — is the governance f
 
 ### Consultation Record
 
-| Consultation | Date | Submissions | Union Submissions |
-|-------------|------|-------------|------------------|
-| AI Action Plan S-223/2024 | Nov 7-21, 2024 | 12 | 1 (BHM, general) |
-| ASÍ 46th Congress | Oct 2024 | — | Zero AI resolutions |
-| VR workplace survey | Annual | — | Zero AI criteria |
+| Consultation | Date | Submissions | Union Submissions | AI Displacement Mentioned by Unions |
+|-------------|------|-------------|------------------|-------------------------------------|
+| AI Action Plan S-223/2024 | Nov 7-21, 2024 | 12 | 1 (BHM, general) | **No** |
+| **Atvinnustefna S-226/2025** | **Nov 14 – Dec 9, 2025** | **94** | **4 (ASÍ+BSRB, BHM, VR, Efling)** | **No — verified by reading all 18pp** |
+| ASÍ 46th Congress | Oct 2024 | — | Zero AI resolutions | N/A |
+| VR workplace survey | Annual | — | Zero AI criteria | N/A |
+
+*Note: The Atvinnustefna consultation (S-226/2025) was a separate process from the AI Action Plan consultation (S-223/2024). All 88 PDFs archived in `data/samrad_s226/`. API: `https://samradapi.island.is/api/Cases/4111/advices`. Full analysis: [`evidence/08-samradsgatt-s226-analysis.md`](evidence/08-samradsgatt-s226-analysis.md)*
 
 ---
 
