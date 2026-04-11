@@ -232,7 +232,7 @@ The adversarial review (`evidence/07-adversarial-oracle.md`) lists the strongest
 ## Author
 
 **Magnús Smári Smárason, MA**
-[smarason.is](https://smarason.is) | Reykjavik, April 2026
+[smarason.is](https://smarason.is) | Akureyri, April 2026
 
 ## License
 
