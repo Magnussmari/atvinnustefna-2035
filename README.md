@@ -105,7 +105,7 @@ python3 scripts/02_verify_textanalysis.py
 | Hlutfall lausra starfa / Vacancy rate | **5,4% → 0,3% (-94%)** | (sama / same) | JVS00001 |
 | Framleiðni vinnuafls / Labour productivity | **+10,5% (2025, hæst allra greina)** | (sama / same) | THJ11011 |
 
-**Af hverju mynsturinn stendur jafnvel í varfærnislegustu lestri:** Ef samdráttarinn 2022–2025 hefði verið eðlileg leiðrétting á COVID-bólu hefðu tekjur einnig hrapað. Þær jukust um 28%. Hrun lausra starfa úr 5,4% niður í 0,3% útiloka skilvirka önnur skýring: ef fyrirtæki hefðu þurft starfsfólk hefðu þau auglýst eftir því. Þau gerðu það ekki. Framleiðni í hæstu hæðum staðfestir: sama eða meiri framleiðsla — með færri starfsmönnum.
+**Af hverju mynsturinn stendur jafnvel í varfærnislegustu lestri:** Ef samdrátturinn 2022–2025 hefði verið eðlileg leiðrétting á COVID-bólu, hefðu tekjur einnig hrapað. Þær jukust um 28%. Hrun hlutfalls lausra starfa úr 5,4% niður í 0,3% útilokar allar aðrar skýringar: ef fyrirtæki hefðu þurft starfsfólk, hefðu þau auglýst eftir því. Þau gerðu það ekki. Metframleiðni staðfestir afganginn: sama eða meiri framleiðsla — með færri starfsmönnum.
 
 **Why the pattern holds even in the conservative reading:** If the 2022–2025 decline were a COVID-bubble correction, revenue would also have fallen. It grew 28%. The vacancy collapse from 5.4% to 0.3% eliminates alternative explanations: if firms needed workers, they would have advertised for them. They did not. Record productivity confirms the rest: same or more output — with fewer workers.
 
