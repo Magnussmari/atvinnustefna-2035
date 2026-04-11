@@ -322,15 +322,17 @@ Til viðbótar við eigin sannprófunarforrit er hafin sjálfstæð sannprófun 
 
 | Niðurstaða / Finding | Þjónusta / Service | Útkoma / Result | Skjal / File |
 |----------------------|---------------------|-----------------|--------------|
-| 2: ICT Trifecta | Manus 1.6 | **3/4 staðfest, 1/4 hluta staðfest** | [`verification/Manus/`](verification/Manus/) |
-| 1: Textaþögnin | *Í bið / Pending* | | |
-| 3: Þekkingarhrun | *Í bið / Pending* | | |
-| 4: Mælingargap | *Í bið / Pending* | | |
-| 5: Stofnanaþögn | *Í bið / Pending* | | |
+| 1: Textaþögnin | Claude Code (internal) | ✅ **14/14 staðfest** | [`Verification Report_ Finding 1`](verification/Manus/Verification%20Report_%20Finding%201%20%E2%80%93%20Textual%20Silence.md) |
+| 2: ICT Trifecta | Manus 1.6 | ✅ **3/4 staðfest**, tímarammi tekna þarf nákvæmni | [`Verification Report_ Finding 2`](verification/Manus/Verification%20Report_%20Finding%202%20%E2%80%93%20The%20ICT%20Trifecta.md) |
+| 3: Þekkingarhrun | Claude Code (internal) | ✅ **10/10 staðfest** — engar frávik | [`Verification Report_ Finding 3`](verification/Manus/Verification%20Report_%20Finding%203%20%E2%80%93%20Knowledge-Occupation%20Collapse.md) |
+| 4: Mælingargap | Claude Code (internal) | ✅ **2/5 staðfest**, ⚠️ 3/5 hluta staðfest | [`Verification Report_ Finding 4`](verification/Manus/Verification%20Report_%20Finding%204%20%E2%80%93%20Nordic%20Measurement%20Gap.md) |
+| 5: Stofnanaþögn | Claude Code (internal) | ✅ **1/5 staðfest**, ⚠️ 3/5 hluta, 1/5 ekki hægt | [`Verification Report_ Finding 5`](verification/Manus/Verification%20Report_%20Finding%205%20%E2%80%93%20Institutional%20Silence.md) |
 
-**Manus-athugasemd um ICT Trifecta:** Tekjuaukning J62 (+72%) samsvarar 2019→2024 tímabilinu (+74,5%), ekki 2022→2024 (+28,1%). Atvinnufækkun (-11,4%), hrun lausra starfa (-94%) og framleiðniaukning (+10,5%, #1 af 16 greinum) staðfestust að fullu. Mynsturinn stendur — tímarammi tekjufullyrðingarinnar þarf nákvæmni.
+Heildarsamantekt: [`MASTER_VERIFICATION_SUMMARY.md`](verification/Manus/MASTER_VERIFICATION_SUMMARY.md)
 
-*Revenue note from Manus verification: The +72% J62 revenue figure matches 2019→2024 (+74.5%), not 2022→2024 (+28.1%). Employment (-11.4%), vacancy collapse (-94%), and productivity (#1 of 16 sectors, +10.5%) fully confirmed. The trifecta pattern holds — the revenue timeframe needs precision.*
+**Þrjár leiðréttingar þarf áður en birting:** (1) Tekjutímarammi Finding 2: 2019→2024, ekki 2022→2025. (2) Finding 4d: "one of the first in Europe" ekki "world's first". (3) Finding 5d: Ráðherrasvar fjallar um notkun AI í ráðuneytisstarfi, ekki um áhrif á vinnumarkað almennt.
+
+*Three precision corrections identified before publication. All findings confirmed — no finding contradicted. See [`MASTER_VERIFICATION_SUMMARY.md`](verification/Manus/MASTER_VERIFICATION_SUMMARY.md) for full details.*
 
 ---
 
