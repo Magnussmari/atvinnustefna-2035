@@ -19,9 +19,9 @@
 
 **Þetta er ekki óttaáróður. Þetta er ekki pólitísk árás. Þetta er ekki tækniandstaða.**
 
-Atvinnustefna Íslands 2035 hefur raunverulega kosti. Greining hennar á framleiðnivanda landsins er vel undirbyggð. STEM-fjárfestingin (2,3 milljarðar króna) tekur á raunverulegum skorti. Orku- og gagnaverstefnan nýtir samkeppnisforskot sem er lögmætt. Stefnan um fjölbreyttari útflutning er nauðsynleg og vel útfærð.
+Atvinnustefna Íslands 2035 hefur raunverulega kosti. Greining hennar á framleiðnivanda landsins er vel undirbyggð. Fjárfestingin í STEM-námi — vísindi, tækni, verkfræði og stærðfræði (2,3 milljarðar króna) — tekur á raunverulegum skorti. Orku- og gagnaverstefnan nýtir samkeppnisforskot sem er lögmætt. Stefnan um fjölbreyttari útflutning er nauðsynleg og vel útfærð.
 
-Gagnrýnin í þessu verkefni er afmörkuð og nákvæm: **stefnan tekst ekki á við áhættuna af kerfislægri röskun á vinnumarkaði vegna gervigreindar.** Hún nefnir gervigreind þrisvar — allt sem tækifæri. Hún nefnir ekki einu sinni atvinnuleysi, sjálfvirknivæðingu, endurmenntun eða röskun. Allar helstu alþjóðlegar stofnanir (IMF, OECD, WEF, ILO) hafa birt áhættumat á þessu sviði. Ísland hefur ekkert slíkt.
+Gagnrýnin í þessu verkefni er afmörkuð og nákvæm: **stefnan tekst ekki á við áhættuna af kerfislægri röskun á vinnumarkaði vegna gervigreindar.** Hún nefnir gervigreind þrisvar — allt sem tækifæri. Hún nefnir ekki einu sinni atvinnuleysi, sjálfvirknivæðingu, endurmenntun eða röskun. Allar helstu alþjóðlegar stofnanir — Alþjóðagjaldeyrissjóðurinn (IMF), Efnahags- og framfarastofnunin (OECD), Alþjóðlegt efnahagsráð (WEF) og Alþjóðavinnumálastofnunin (ILO) — hafa birt áhættumat á þessu sviði. Ísland hefur ekkert slíkt.
 
 Þessi greining er **viðbót við stefnuna, ekki staðgengill hennar.** Stefnan er góð. Gagnagrunnurinn sem hún hvílir á er ófullnægjandi. Það sem vantar er mælingarinnviði, áhættumat og umbreytingarstuðningur sem gæti gert bjartsýnar forsendur stefnunnar sannreynanlegar — og leiðréttanlegar ef þær reynast rangar.
 
@@ -80,7 +80,7 @@ python3 scripts/02_verify_textanalysis.py
 
 ### Niðurstaða 2: Þríhyrningur upplýsingatæknigeirans / Finding 2: The ICT Trifecta
 
-**Fullyrðing:** Upplýsingatæknigeirinn á Íslandi (NACE J) sýnir mynstur sem samræmist framleiðnitilfærslu: tekjur aukast verulega á meðan ráðningar fækka og lausar stöður hrynja nær núllstigi. Engin íslensk stofnun hafði tengt þessi þrjú merki saman í eina rannsóknarniðurstöðu áður.
+**Fullyrðing:** Upplýsingatæknigeirinn á Íslandi — NACE J samkvæmt evrópskri atvinnugreinaskiptingu — sýnir mynstur sem samræmist framleiðnitilfærslu: tekjur aukast verulega á meðan ráðningar fækka og lausar stöður hrynja nær núllstigi. Engin íslensk stofnun hafði tengt þessi þrjú merki saman í eina rannsóknarniðurstöðu áður.
 
 **Claim:** Iceland's ICT sector (NACE J) shows a pattern consistent with productivity displacement: revenue surging while employment falls and vacancies collapse to near zero. No Icelandic institution assembled these three signals into a finding before this analysis.
 
@@ -97,7 +97,7 @@ python3 scripts/02_verify_textanalysis.py
 
 **Af hverju þetta skiptir máli:** Ef tekjur hækka er þetta ekki niðursveifla. Ef lausar stöður eru nálægt núlli eru fyrirtæki ekki að auglýsa eftir nýjum starfsmönnum — þau þurfa þeirra ekki. Ef framleiðni er í hæstu hæðum er unnið meira með færri. Þessi þrjú merki saman benda til einnar skýringar: framleiðnitilfærslu.
 
-**Heimild / Source:** Hagstofa Íslands, PxWeb-þjónusta. Hrágögn í CSV-formi í `data/iceland-ai-governance-audit/data/raw/`.
+**Heimild / Source:** Hagstofa Íslands, PxWeb — gagnagrunnsþjónusta Hagstofunnar. Hrágögn í CSV-formi í `data/iceland-ai-governance-audit/data/raw/`.
 
 **Sannprófun / Verify:** Fyrirspurn í töflur VIN01110, JVS00001, FYR04101, THJ11011 á https://px.hagstofa.is
 
@@ -105,7 +105,7 @@ python3 scripts/02_verify_textanalysis.py
 
 ### Niðurstaða 3: Hrun þekkingstarfa / Finding 3: The Knowledge-Occupation Collapse
 
-**Fullyrðing:** Á milli 2024 og 2025 töpuðust 9.300 þekkingarkrefjandi störf á Íslandi (ISCO-flokkar 1–4: -6,9%) á meðan 6.900 líkamleg störf og þjónustustörf bættust við (ISCO-flokkar 5–9: +7,4%). Hagkerfið dróst ekki saman — samsetning þess breyttist.
+**Fullyrðing:** Á milli 2024 og 2025 töpuðust 9.300 þekkingarkrefjandi störf á Íslandi — flokkar 1–4 samkvæmt alþjóðlegri starfaflokkunarkerfinu ISCO (International Standard Classification of Occupations): -6,9% — á meðan 6.900 líkamleg störf og þjónustustörf bættust við (ISCO-flokkar 5–9: +7,4%). Hagkerfið dróst ekki saman — samsetning þess breyttist.
 
 **Claim:** Between 2024 and 2025, Iceland lost 9,300 knowledge-intensive jobs (ISCO groups 1-4: -6.9%) while gaining 6,900 physical and service jobs (ISCO groups 5-9: +7.4%). The economy did not contract — the composition shifted.
 
@@ -143,13 +143,13 @@ python3 scripts/02_verify_textanalysis.py
 | Vídd / Dimension | Danmörk | Svíþjóð | Noregur | Finnland | **Ísland** |
 |-------------------|---------|---------|---------|----------|------------|
 | Eurostat könnun á gervigreind (isoc_eb_ai) | 42,0% | 35,0% | 28,9% | 37,8% | **Ekki kannað** |
-| EWCS 2024 vinnuaðstæðnakönnun | Já | Já | Já | Já | **Útilokað** |
+| EWCS 2024 — evrópsk vinnuaðstæðnakönnun Eurofound | Já | Já | Já | Já | **Útilokað** |
 | Tengd stjórnsýslugögn fyrir rannsóknir | DREAM+IDA | LISA | FD-Trygd | Findata | **Ekkert** |
 | Kjarasamningar um gervigreind | Hilfr2 + þríhliða samkomulag | Teknikföretagen-IF Metall | LO-NHO grunnsamningur | Greinasamningar | **Ekkert** |
 | Starfsstéttargögn í velferðarkerfi | Já | Já | Já | Já | **Nei** |
 | Þjóðlegur gervigreindarvettvangur með fulltrúum launþega | Já | Já | Já | Já | **Nei** |
 
-Að auki er 17% misræmi á milli tveggja opinberra atvinnuleysismælinga á Íslandi (Hagstofa: 5,2% á móti VMST: 3,3% í september 2024), samkvæmt úttekt Ríkisendurskoðunar.
+Að auki er 17% misræmi á milli tveggja opinberra atvinnuleysismælinga á Íslandi — Hagstofunnar (5,2%) og Vinnumálastofnunar (VMST, 3,3%) í september 2024 — samkvæmt úttekt Ríkisendurskoðunar.
 
 **Heimildir / Sources:**
 - Eurostat: https://ec.europa.eu/eurostat/databrowser/view/isoc_eb_ai/default/table?lang=en
@@ -170,7 +170,7 @@ Að auki er 17% misræmi á milli tveggja opinberra atvinnuleysismælinga á Ís
 
 | Atburður / Event | Þátttaka stéttarfélaga / Union participation |
 |------------------|----------------------------------------------|
-| Samráð um aðgerðaáætlun gervigreindar (nóv. 2024, 14 daga frestur) | 12 umsagnir alls. **Engar frá ASÍ, VR, Eflingu, BSRB, SFR eða KÍ.** Aðeins BHM (háskólamenntaðir) svaraði — tvær blaðsíður í almennum orðum. |
+| Samráð um aðgerðaáætlun gervigreindar (nóv. 2024, 14 daga frestur) | 12 umsagnir alls. **Engar frá Alþýðusambandi Íslands (ASÍ), Verslunarmannafélagi Reykjavíkur (VR), Eflingu, Bandlagi starfsmanna ríkis og bæja (BSRB), Starfsmannafélagi ríkisins (SFR) eða Kennarasambandi Íslands (KÍ).** Aðeins Bandalag háskólamanna (BHM) svaraði — tvær blaðsíður í almennum orðum. |
 | 46. þing ASÍ (október 2024) | **Engar ályktanir um gervigreind** |
 | Árleg vinnustaðakönnun VR | **Engir gervigreindarvísar mældir** |
 | Íslenskir kjarasamningar | **Engin ákvæði um gervigreind** |
@@ -182,7 +182,7 @@ Að auki er 17% misræmi á milli tveggja opinberra atvinnuleysismælinga á Ís
 - Innviðaráðherra viðurkenndi að engin formleg vinna hafi farið fram á því hvernig hægt sé að nýta gervigreind í lögbundnum verkefnum ráðuneytisins (Þingskjal 2212/154): https://www.althingi.is/altext/154/s/2212.html
 - Aðgerðaáætlun gervigreindar (ensk útgáfa): https://www.stjornarradid.is/library/04-Raduneytin/Menningar---nyskopunar--og-haskolaraduneytid/Iceland's%20AI%20Action%20Plan%20electronic%20version.pdf
 - Könnun Vörðu 2026: https://vinnan.is/ny-skyrsla-vordu-synir-olika-stodu-launafolks-til-ad-maeta-breytingum-a-vinnumarkadi-vegna-ahrifa-taekni-og-loftslagsbreytinga/
-- EPRS-rannsókn á reikniritstjórnun (42,3% starfsmanna í ESB): https://www.europarl.europa.eu/RegData/etudes/STUD/2025/774670/EPRS_STU(2025)774670_EN.pdf
+- Rannsóknarþjónusta Evrópuþingsins (EPRS) — reikniritstjórnun á vinnustað (42,3% starfsmanna í ESB): https://www.europarl.europa.eu/RegData/etudes/STUD/2025/774670/EPRS_STU(2025)774670_EN.pdf
 
 ---
 
@@ -204,9 +204,9 @@ words "atvinnuleysi" (unemployment), "sjálfvirknivæðing" (automation),
 is mentioned 3 times, all in positive framing.
 Source PDF: https://samradapi.island.is/api/Documents/74e3082d-e8c6-f011-9bd1-005056bcce7e
 
-CLAIM 2: Iceland's ICT sector (NACE J) revenue grew 72% from 2022-2025
-while employment fell 11.4% (-1,300 jobs) and the vacancy rate collapsed
-from 5.4% to 0.3%.
+CLAIM 2: Iceland's ICT sector (NACE J) revenue grew ~75% from 2019-2024
+while employment fell 11.4% (-1,300 jobs, 2022-2025) and the vacancy rate
+collapsed from 5.4% to 0.3% (2022-2025).
 Source: Hagstofa Íslands tables VIN01110, JVS00001, FYR04101 at https://px.hagstofa.is
 
 CLAIM 3: Between 2024 and 2025, Iceland lost 9,300 knowledge-intensive
@@ -236,13 +236,13 @@ Eftirfarandi alþjóðlegar skýrslur setja vanrækslu Íslands í samhengi.
 | Stofnun / Institution | Meginniðurstaða / Key Finding | Heimild / Source |
 |------------------------|-------------------------------|------------------|
 | **IMF** (2024) | 40% starfa á heimsvísu verða fyrir áhrifum; **60% í þróuðum ríkjum** | [imf.org](https://www.imf.org/en/blogs/articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity) |
-| **WEF** (2025) | 92M störf hverfa, 170M skapast til 2030; **39% hæfni úreldist** | [weforum.org](https://www.weforum.org/publications/the-future-of-jobs-report-2025/) |
+| **WEF** (2025) | 92 milljónar starfa hverfa, 170 milljónar skapast til 2030; **39% hæfni úreldist** | [weforum.org](https://www.weforum.org/publications/the-future-of-jobs-report-2025/) |
 | **OECD** (2025) | **27% starfa í OECD-ríkjum** í mestri sjálfvirknihættu | [oecd.org](https://www.oecd.org/en/publications/oecd-employment-outlook-2025_194a947b-en.html) |
 | **ILO** (2025) | 25% starfa útsett; **34% í hátekjulöndum**; konur 9,6% á móti körlum 3,5% í mestri hættu | [ilo.org](https://www.ilo.org/publications/generative-ai-and-jobs-2025-update) |
 | **Goldman Sachs** (2023) | **300 milljónar stöðugilda** útsett á heimsvísu; 18% vinnu sjálfvirknivæðanleg | [goldmansachs.com](https://www.goldmansachs.com/insights/articles/generative-ai-could-raise-global-gdp-by-7-percent) |
 | **McKinsey** (2023) | 60–70% starfsemi sjálfvirknivæðanleg; **$6,1–7,9 billjón** árleg verðmæti | [mckinsey.com](https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier) |
-| **Challenger** (mars 2026) | Gervigreind aðalástæða uppsagna í BNA: **15.341 (25%)** á einum mánuði | [challengergray.com](https://www.challengergray.com/blog/challenger-report-march-cuts-rise-25-from-february-ai-leads-reasons/) |
-| **NBER/Duke** (2026) | 750 fjármálastjórar spá **502.000 gervigreindaruppsögnum** árið 2026 (9-föld aukning) | [fortune.com](https://fortune.com/2026/03/24/cfo-survey-ai-job-cuts-productivity-paradox-2026/) |
+| **Challenger** (mars 2026) | Gervigreind aðalástæða uppsagna í Bandaríkjunum: **15.341 (25%)** á einum mánuði | [challengergray.com](https://www.challengergray.com/blog/challenger-report-march-cuts-rise-25-from-february-ai-leads-reasons/) |
+| **NBER/Duke** (2026) — könnun meðal 750 fjármálastjóra | 750 fjármálastjórar spá **502.000 gervigreindaruppsögnum** árið 2026 (9-föld aukning frá 2025) | [fortune.com](https://fortune.com/2026/03/24/cfo-survey-ai-job-cuts-productivity-paradox-2026/) |
 | **IMF — Danmörk** (2025) | Landssérstök greining á áhrifum gervigreindar á vinnumarkað — **einmitt það sem Ísland á eftir að gera** | [imf.org](https://www.imf.org/en/publications/selected-issues-papers/issues/2025/08/25/the-impact-of-artificial-intelligence-on-denmarks-labor-market-569930) |
 
 ### Lykilfræðigreinar / Key Academic Papers
