@@ -1,0 +1,17 @@
+{
+  "kind": "timeline",
+  "unit": "scenario states",
+  "summary": "Current conclusion vs falsifier-triggered scenario outcomes.",
+  "rows": [
+    {
+      "label": "Current state",
+      "valueA": 1,
+      "note": "Pattern evidence with explicit caveats"
+    },
+    {
+      "label": "If falsifier appears",
+      "valueA": 1,
+      "note": "Conclusion downgraded by new data"
+    }
+  ]
+}

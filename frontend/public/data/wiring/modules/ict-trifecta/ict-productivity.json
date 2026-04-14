@@ -1,0 +1,40 @@
+{
+  "kind": "area",
+  "unit": "index",
+  "summary": "ICT labour productivity index values from Hagstofa (Index 2008=100).",
+  "series": [
+    {
+      "name": "Productivity index",
+      "points": [
+        {
+          "label": "2019",
+          "value": 168.9
+        },
+        {
+          "label": "2020",
+          "value": 174.7
+        },
+        {
+          "label": "2021",
+          "value": 181.3
+        },
+        {
+          "label": "2022",
+          "value": 184
+        },
+        {
+          "label": "2023",
+          "value": 183.6
+        },
+        {
+          "label": "2024",
+          "value": 196.5
+        },
+        {
+          "label": "2025",
+          "value": 217.1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "ranked-table",
+  "unit": "falsifier readiness",
+  "summary": "What evidence could weaken each key claim.",
+  "rows": [
+    {
+      "label": "F1 Text silence",
+      "valueA": 1,
+      "note": "Falsifiable by updated policy document text"
+    },
+    {
+      "label": "F2 ICT trifecta",
+      "valueA": 2,
+      "note": "Needs 2025 J62 revenue + alternative explanation evidence"
+    },
+    {
+      "label": "F3 ISCO shift",
+      "valueA": 2,
+      "note": "Needs linked transition evidence to reclassify interpretation"
+    },
+    {
+      "label": "F4 Measurement gap",
+      "valueA": 1,
+      "note": "Falsified if Iceland joins missing instruments"
+    },
+    {
+      "label": "F5 Institutional silence",
+      "valueA": 2,
+      "note": "Needs full ASÍ document pass and consultation updates"
+    }
+  ]
+}

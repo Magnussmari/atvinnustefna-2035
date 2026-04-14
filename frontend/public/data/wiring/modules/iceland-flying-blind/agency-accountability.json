@@ -1,0 +1,27 @@
+{
+  "kind": "ranked-table",
+  "unit": "agencies",
+  "summary": "Core accountability map from agency responsibilities.",
+  "rows": [
+    {
+      "label": "Hagstofa",
+      "valueA": 2,
+      "note": "Eurostat AI + vacancies accessibility"
+    },
+    {
+      "label": "VMST",
+      "valueA": 1,
+      "note": "Sector unemployment access"
+    },
+    {
+      "label": "TR",
+      "valueA": 1,
+      "note": "Occupation x diagnosis cross-table"
+    },
+    {
+      "label": "HVIN",
+      "valueA": 1,
+      "note": "EWCS participation ownership"
+    }
+  ]
+}

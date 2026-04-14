@@ -1,0 +1,27 @@
+{
+  "kind": "ranked-table",
+  "unit": "argument strength",
+  "summary": "Top adversarial arguments from evidence register.",
+  "rows": [
+    {
+      "label": "Luddite fallacy",
+      "valueA": 3,
+      "note": "Strong"
+    },
+    {
+      "label": "Small economy advantage",
+      "valueA": 3,
+      "note": "Strong"
+    },
+    {
+      "label": "WEF net positive",
+      "valueA": 2,
+      "note": "Medium-strong"
+    },
+    {
+      "label": "Humlum & Vestergaard",
+      "valueA": 2,
+      "note": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "ranked-table",
+  "unit": "jobs",
+  "summary": "Occupation employment values for 2025.",
+  "rows": [
+    {
+      "label": "Legislators and managers",
+      "valueA": 28000
+    },
+    {
+      "label": "Professionals",
+      "valueA": 54200
+    },
+    {
+      "label": "Associate professionals",
+      "valueA": 33800
+    },
+    {
+      "label": "Clerks",
+      "valueA": 9000
+    },
+    {
+      "label": "Service and sales workers",
+      "valueA": 50000
+    },
+    {
+      "label": "Agricultural and fishery workers",
+      "valueA": 6200
+    },
+    {
+      "label": "Craft and related trades workers",
+      "valueA": 21300
+    },
+    {
+      "label": "Plant and machine operators",
+      "valueA": 9800
+    },
+    {
+      "label": "Elementary occupations",
+      "valueA": 12600
+    }
+  ]
+}

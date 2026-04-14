@@ -1,0 +1,19 @@
+{
+  "kind": "ranked-table",
+  "unit": "priority actions",
+  "summary": "Immediate data actions from memo.",
+  "rows": [
+    {
+      "label": "Forsætisráðuneyti methodology request",
+      "valueA": 1
+    },
+    {
+      "label": "TR cross-table request",
+      "valueA": 1
+    },
+    {
+      "label": "Hagstofa Eurostat participation request",
+      "valueA": 1
+    }
+  ]
+}

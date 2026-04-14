@@ -1,0 +1,28 @@
+{
+  "kind": "radar",
+  "unit": "coverage dimensions",
+  "summary": "Nordic measurement capability comparison from AGENCY_MAP.",
+  "rows": [
+    {
+      "label": "Iceland",
+      "valueA": 0,
+      "note": "No full coverage on listed dimensions"
+    },
+    {
+      "label": "Denmark",
+      "valueA": 5
+    },
+    {
+      "label": "Sweden",
+      "valueA": 5
+    },
+    {
+      "label": "Norway",
+      "valueA": 5
+    },
+    {
+      "label": "Finland",
+      "valueA": 5
+    }
+  ]
+}

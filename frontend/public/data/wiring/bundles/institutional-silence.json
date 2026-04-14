@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-04-14T14:51:15.741Z",
+  "fingerprint": "2ddaa39bd5412446",
+  "moduleCharts": {
+    "participation-table": {
+      "kind": "ranked-table",
+      "unit": "submissions",
+      "summary": "Major union participation in AI consultation process.",
+      "rows": [
+        {
+          "label": "Major unions submissions",
+          "valueA": 0
+        },
+        {
+          "label": "BHM submission",
+          "valueA": 1
+        },
+        {
+          "label": "Total submissions",
+          "valueA": 12
+        }
+      ]
+    },
+    "timeline-response": {
+      "kind": "timeline",
+      "unit": "events",
+      "summary": "Consultation and response events from memo/adversarial material.",
+      "rows": [
+        {
+          "label": "Oct 2024: ASÍ congress",
+          "valueA": 0,
+          "note": "No AI resolutions confirmed in titles"
+        },
+        {
+          "label": "Nov 2024: AI consultation opens",
+          "valueA": 1
+        },
+        {
+          "label": "Nov 2024: major unions responses",
+          "valueA": 0
+        },
+        {
+          "label": "2026: Varða survey publication",
+          "valueA": 1
+        }
+      ]
+    },
+    "unverified-zone": {
+      "kind": "ranked-table",
+      "unit": "verification items",
+      "summary": "Outstanding verification items in institutional silence section.",
+      "rows": [
+        {
+          "label": "ASÍ full congress PDF pass",
+          "valueA": 1
+        },
+        {
+          "label": "Consultation appendices review",
+          "valueA": 1
+        },
+        {
+          "label": "Union AI agreement scan update",
+          "valueA": 1
+        }
+      ]
+    }
+  }
+}

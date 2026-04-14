@@ -1,0 +1,24 @@
+{
+  "kind": "timeline",
+  "unit": "events",
+  "summary": "Consultation and response events from memo/adversarial material.",
+  "rows": [
+    {
+      "label": "Oct 2024: ASÍ congress",
+      "valueA": 0,
+      "note": "No AI resolutions confirmed in titles"
+    },
+    {
+      "label": "Nov 2024: AI consultation opens",
+      "valueA": 1
+    },
+    {
+      "label": "Nov 2024: major unions responses",
+      "valueA": 0
+    },
+    {
+      "label": "2026: Varða survey publication",
+      "valueA": 1
+    }
+  ]
+}

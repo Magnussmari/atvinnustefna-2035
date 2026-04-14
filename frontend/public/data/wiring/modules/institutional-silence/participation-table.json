@@ -1,0 +1,19 @@
+{
+  "kind": "ranked-table",
+  "unit": "submissions",
+  "summary": "Major union participation in AI consultation process.",
+  "rows": [
+    {
+      "label": "Major unions submissions",
+      "valueA": 0
+    },
+    {
+      "label": "BHM submission",
+      "valueA": 1
+    },
+    {
+      "label": "Total submissions",
+      "valueA": 12
+    }
+  ]
+}

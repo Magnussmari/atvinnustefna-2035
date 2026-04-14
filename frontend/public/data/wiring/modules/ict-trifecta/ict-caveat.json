@@ -1,0 +1,19 @@
+{
+  "kind": "ranked-table",
+  "unit": "caveat factors",
+  "summary": "Why ICT interpretation remains strong inference, not proof.",
+  "rows": [
+    {
+      "label": "Revenue 2025 data gap",
+      "valueA": 1
+    },
+    {
+      "label": "No direct AI adoption linkage dataset",
+      "valueA": 1
+    },
+    {
+      "label": "Alternative explanations need exclusion",
+      "valueA": 1
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-04-14T14:51:15.741Z",
+  "fingerprint": "2ddaa39bd5412446",
+  "moduleCharts": {
+    "exec-status-ribbon": {
+      "kind": "ranked-table",
+      "unit": "status",
+      "summary": "Live summary from verified findings and evidence tiers.",
+      "rows": [
+        {
+          "label": "Confirmed findings",
+          "valueA": 3
+        },
+        {
+          "label": "Strong-inference findings",
+          "valueA": 2
+        },
+        {
+          "label": "Data requests pending",
+          "valueA": 8
+        }
+      ]
+    },
+    "exec-claims-matrix": {
+      "kind": "ranked-table",
+      "unit": "findings",
+      "summary": "5 findings grouped by evidence level from project register.",
+      "rows": [
+        {
+          "label": "Confirmed",
+          "valueA": 3,
+          "note": "Text silence, ISCO shift, measurement absence"
+        },
+        {
+          "label": "Strong inference",
+          "valueA": 2,
+          "note": "ICT pattern, institutional silence"
+        },
+        {
+          "label": "Unproven causality",
+          "valueA": 1,
+          "note": "AI -> occupation loss remains unproven"
+        }
+      ]
+    },
+    "exec-immediate-actions": {
+      "kind": "ranked-table",
+      "unit": "priority actions",
+      "summary": "Immediate data actions from memo.",
+      "rows": [
+        {
+          "label": "Forsætisráðuneyti methodology request",
+          "valueA": 1
+        },
+        {
+          "label": "TR cross-table request",
+          "valueA": 1
+        },
+        {
+          "label": "Hagstofa Eurostat participation request",
+          "valueA": 1
+        }
+      ]
+    }
+  }
+}

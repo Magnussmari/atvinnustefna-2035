@@ -1,0 +1,61 @@
+{
+  "kind": "waterfall",
+  "unit": "job delta",
+  "summary": "2025 minus 2024 occupation changes.",
+  "rows": [
+    {
+      "label": "Legislators and managers",
+      "valueA": -2000,
+      "valueB": 28000,
+      "note": "2024: 30,000 -> 2025: 28,000"
+    },
+    {
+      "label": "Professionals",
+      "valueA": -4500,
+      "valueB": 54200,
+      "note": "2024: 58,700 -> 2025: 54,200"
+    },
+    {
+      "label": "Associate professionals",
+      "valueA": -2200,
+      "valueB": 33800,
+      "note": "2024: 36,000 -> 2025: 33,800"
+    },
+    {
+      "label": "Clerks",
+      "valueA": -600,
+      "valueB": 9000,
+      "note": "2024: 9,600 -> 2025: 9,000"
+    },
+    {
+      "label": "Service and sales workers",
+      "valueA": 5500,
+      "valueB": 50000,
+      "note": "2024: 44,500 -> 2025: 50,000"
+    },
+    {
+      "label": "Agricultural and fishery workers",
+      "valueA": 200,
+      "valueB": 6200,
+      "note": "2024: 6,000 -> 2025: 6,200"
+    },
+    {
+      "label": "Craft and related trades workers",
+      "valueA": 400,
+      "valueB": 21300,
+      "note": "2024: 20,900 -> 2025: 21,300"
+    },
+    {
+      "label": "Plant and machine operators",
+      "valueA": 400,
+      "valueB": 9800,
+      "note": "2024: 9,400 -> 2025: 9,800"
+    },
+    {
+      "label": "Elementary occupations",
+      "valueA": 400,
+      "valueB": 12600,
+      "note": "2024: 12,200 -> 2025: 12,600"
+    }
+  ]
+}

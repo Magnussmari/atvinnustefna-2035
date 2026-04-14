@@ -1,0 +1,22 @@
+{
+  "kind": "ranked-table",
+  "unit": "findings",
+  "summary": "5 findings grouped by evidence level from project register.",
+  "rows": [
+    {
+      "label": "Confirmed",
+      "valueA": 3,
+      "note": "Text silence, ISCO shift, measurement absence"
+    },
+    {
+      "label": "Strong inference",
+      "valueA": 2,
+      "note": "ICT pattern, institutional silence"
+    },
+    {
+      "label": "Unproven causality",
+      "valueA": 1,
+      "note": "AI -> occupation loss remains unproven"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "ranked-table",
+  "unit": "verification items",
+  "summary": "Outstanding verification items in institutional silence section.",
+  "rows": [
+    {
+      "label": "ASÍ full congress PDF pass",
+      "valueA": 1
+    },
+    {
+      "label": "Consultation appendices review",
+      "valueA": 1
+    },
+    {
+      "label": "Union AI agreement scan update",
+      "valueA": 1
+    }
+  ]
+}

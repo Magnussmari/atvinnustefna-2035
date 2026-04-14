@@ -1,0 +1,91 @@
+{
+  "generatedAt": "2026-04-14T14:51:15.741Z",
+  "fingerprint": "2ddaa39bd5412446",
+  "moduleCharts": {
+    "nordic-matrix": {
+      "kind": "radar",
+      "unit": "coverage dimensions",
+      "summary": "Nordic measurement capability comparison from AGENCY_MAP.",
+      "rows": [
+        {
+          "label": "Iceland",
+          "valueA": 0,
+          "note": "No full coverage on listed dimensions"
+        },
+        {
+          "label": "Denmark",
+          "valueA": 5
+        },
+        {
+          "label": "Sweden",
+          "valueA": 5
+        },
+        {
+          "label": "Norway",
+          "valueA": 5
+        },
+        {
+          "label": "Finland",
+          "valueA": 5
+        }
+      ]
+    },
+    "gap-heatmap": {
+      "kind": "heatmap",
+      "unit": "binary coverage",
+      "summary": "Iceland appears as missing across AI/labour measurement dimensions.",
+      "rows": [
+        {
+          "label": "Eurostat AI survey",
+          "valueA": 0,
+          "note": "Iceland excluded"
+        },
+        {
+          "label": "EWCS participation",
+          "valueA": 0,
+          "note": "Not in EWCS 2024 wave"
+        },
+        {
+          "label": "Linked admin data",
+          "valueA": 0,
+          "note": "No integrated labour-welfare chain"
+        },
+        {
+          "label": "Union AI agreements",
+          "valueA": 0
+        },
+        {
+          "label": "Tripartite AI forum",
+          "valueA": 0
+        }
+      ]
+    },
+    "agency-accountability": {
+      "kind": "ranked-table",
+      "unit": "agencies",
+      "summary": "Core accountability map from agency responsibilities.",
+      "rows": [
+        {
+          "label": "Hagstofa",
+          "valueA": 2,
+          "note": "Eurostat AI + vacancies accessibility"
+        },
+        {
+          "label": "VMST",
+          "valueA": 1,
+          "note": "Sector unemployment access"
+        },
+        {
+          "label": "TR",
+          "valueA": 1,
+          "note": "Occupation x diagnosis cross-table"
+        },
+        {
+          "label": "HVIN",
+          "valueA": 1,
+          "note": "EWCS participation ownership"
+        }
+      ]
+    }
+  }
+}

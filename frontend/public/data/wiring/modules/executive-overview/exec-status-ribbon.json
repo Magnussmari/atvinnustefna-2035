@@ -1,0 +1,19 @@
+{
+  "kind": "ranked-table",
+  "unit": "status",
+  "summary": "Live summary from verified findings and evidence tiers.",
+  "rows": [
+    {
+      "label": "Confirmed findings",
+      "valueA": 3
+    },
+    {
+      "label": "Strong-inference findings",
+      "valueA": 2
+    },
+    {
+      "label": "Data requests pending",
+      "valueA": 8
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "ranked-table",
+  "unit": "occupation groups",
+  "summary": "Knowledge vs non-knowledge composition in 2025.",
+  "rows": [
+    {
+      "label": "Knowledge occupations (2025)",
+      "valueA": 125000
+    },
+    {
+      "label": "Service and physical occupations (2025)",
+      "valueA": 99900
+    }
+  ]
+}

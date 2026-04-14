@@ -1,0 +1,82 @@
+{
+  "generatedAt": "2026-04-14T14:51:15.741Z",
+  "fingerprint": "2ddaa39bd5412446",
+  "moduleCharts": {
+    "counterargument-register": {
+      "kind": "ranked-table",
+      "unit": "argument strength",
+      "summary": "Top adversarial arguments from evidence register.",
+      "rows": [
+        {
+          "label": "Luddite fallacy",
+          "valueA": 3,
+          "note": "Strong"
+        },
+        {
+          "label": "Small economy advantage",
+          "valueA": 3,
+          "note": "Strong"
+        },
+        {
+          "label": "WEF net positive",
+          "valueA": 2,
+          "note": "Medium-strong"
+        },
+        {
+          "label": "Humlum & Vestergaard",
+          "valueA": 2,
+          "note": "Medium"
+        }
+      ]
+    },
+    "falsifier-matrix": {
+      "kind": "ranked-table",
+      "unit": "falsifier readiness",
+      "summary": "What evidence could weaken each key claim.",
+      "rows": [
+        {
+          "label": "F1 Text silence",
+          "valueA": 1,
+          "note": "Falsifiable by updated policy document text"
+        },
+        {
+          "label": "F2 ICT trifecta",
+          "valueA": 2,
+          "note": "Needs 2025 J62 revenue + alternative explanation evidence"
+        },
+        {
+          "label": "F3 ISCO shift",
+          "valueA": 2,
+          "note": "Needs linked transition evidence to reclassify interpretation"
+        },
+        {
+          "label": "F4 Measurement gap",
+          "valueA": 1,
+          "note": "Falsified if Iceland joins missing instruments"
+        },
+        {
+          "label": "F5 Institutional silence",
+          "valueA": 2,
+          "note": "Needs full ASÍ document pass and consultation updates"
+        }
+      ]
+    },
+    "conclusion-toggle": {
+      "kind": "timeline",
+      "unit": "scenario states",
+      "summary": "Current conclusion vs falsifier-triggered scenario outcomes.",
+      "rows": [
+        {
+          "label": "Current state",
+          "valueA": 1,
+          "note": "Pattern evidence with explicit caveats"
+        },
+        {
+          "label": "If falsifier appears",
+          "valueA": 1,
+          "note": "Conclusion downgraded by new data"
+        }
+      ]
+    }
+  }
+}

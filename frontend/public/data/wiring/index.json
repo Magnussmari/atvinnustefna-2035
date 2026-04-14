@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-04-14T14:51:15.741Z",
+  "sourceFiles": [
+    "employment_by_sector_annual.csv",
+    "vacancies_quarterly.csv",
+    "labour_productivity_annual.csv",
+    "employment_by_occupation_annual.csv"
+  ],
+  "sourceHashes": {
+    "employment_by_sector_annual.csv": "be3b149ae7344ea4",
+    "vacancies_quarterly.csv": "b20ccab68bd8a7c7",
+    "labour_productivity_annual.csv": "826dda5035c61872",
+    "employment_by_occupation_annual.csv": "69a97268acc555fb"
+  },
+  "fingerprint": "2ddaa39bd5412446",
+  "pages": {
+    "executive-overview": {
+      "modules": [
+        "exec-status-ribbon",
+        "exec-claims-matrix",
+        "exec-immediate-actions"
+      ]
+    },
+    "ict-trifecta": {
+      "modules": [
+        "ict-series",
+        "ict-productivity",
+        "ict-caveat"
+      ]
+    },
+    "knowledge-occupation-collapse": {
+      "modules": [
+        "isco-ranked-table",
+        "isco-slope",
+        "isco-method"
+      ]
+    },
+    "iceland-flying-blind": {
+      "modules": [
+        "nordic-matrix",
+        "gap-heatmap",
+        "agency-accountability"
+      ]
+    },
+    "institutional-silence": {
+      "modules": [
+        "participation-table",
+        "timeline-response",
+        "unverified-zone"
+      ]
+    },
+    "adversarial-review": {
+      "modules": [
+        "counterargument-register",
+        "falsifier-matrix",
+        "conclusion-toggle"
+      ]
+    }
+  }
+}

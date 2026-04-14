@@ -1,0 +1,30 @@
+{
+  "kind": "heatmap",
+  "unit": "binary coverage",
+  "summary": "Iceland appears as missing across AI/labour measurement dimensions.",
+  "rows": [
+    {
+      "label": "Eurostat AI survey",
+      "valueA": 0,
+      "note": "Iceland excluded"
+    },
+    {
+      "label": "EWCS participation",
+      "valueA": 0,
+      "note": "Not in EWCS 2024 wave"
+    },
+    {
+      "label": "Linked admin data",
+      "valueA": 0,
+      "note": "No integrated labour-welfare chain"
+    },
+    {
+      "label": "Union AI agreements",
+      "valueA": 0
+    },
+    {
+      "label": "Tripartite AI forum",
+      "valueA": 0
+    }
+  ]
+}

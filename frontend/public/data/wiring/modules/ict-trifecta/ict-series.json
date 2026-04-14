@@ -1,0 +1,106 @@
+{
+  "kind": "line",
+  "unit": "mixed indices",
+  "summary": "Employment (absolute), vacancy rate (annualized quarterly avg), and productivity index (2008=100).",
+  "series": [
+    {
+      "name": "ICT employment",
+      "points": [
+        {
+          "label": "2019",
+          "value": 9200
+        },
+        {
+          "label": "2020",
+          "value": 9800
+        },
+        {
+          "label": "2021",
+          "value": 9500
+        },
+        {
+          "label": "2022",
+          "value": 10400
+        },
+        {
+          "label": "2023",
+          "value": 11400
+        },
+        {
+          "label": "2024",
+          "value": 11300
+        },
+        {
+          "label": "2025",
+          "value": 10100
+        }
+      ]
+    },
+    {
+      "name": "ICT vacancy rate",
+      "points": [
+        {
+          "label": "2019",
+          "value": 3.8
+        },
+        {
+          "label": "2020",
+          "value": 1.5
+        },
+        {
+          "label": "2021",
+          "value": 3.7
+        },
+        {
+          "label": "2022",
+          "value": 4
+        },
+        {
+          "label": "2023",
+          "value": 3
+        },
+        {
+          "label": "2024",
+          "value": 1.7
+        },
+        {
+          "label": "2025",
+          "value": 0.7
+        }
+      ]
+    },
+    {
+      "name": "ICT productivity index",
+      "points": [
+        {
+          "label": "2019",
+          "value": 168.9
+        },
+        {
+          "label": "2020",
+          "value": 174.7
+        },
+        {
+          "label": "2021",
+          "value": 181.3
+        },
+        {
+          "label": "2022",
+          "value": 184
+        },
+        {
+          "label": "2023",
+          "value": 183.6
+        },
+        {
+          "label": "2024",
+          "value": 196.5
+        },
+        {
+          "label": "2025",
+          "value": 217.1
+        }
+      ]
+    }
+  ]
+}
