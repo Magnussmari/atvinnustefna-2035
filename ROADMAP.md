@@ -1,6 +1,6 @@
 # Verkáætlun / Roadmap
 
-**Uppfært / Updated:** 13. apríl 2026
+**Uppfært / Updated:** 14. apríl 2026
 
 ---
 
@@ -23,7 +23,7 @@ Verkefnið er lokið í grunninn. Allar 5 lykilniðurstöður hafa verið sannpr
 | Hagstofu-gögn (150.346 raðir) | ✅ Lokið |
 | Sannprófunarforrit (2 Python) | ✅ Lokið, prófað |
 | Sannprófunarskýrslur (5 niðurstöður) | ✅ Lokið |
-| 8 gagnaóskir | ✅ Tilbúnar til sendingar |
+| 8 gagnaóskir | ✅ Sendar — 14. apríl 2026 |
 | GitHub repo | ✅ Opinbert |
 | Þrjár leiðréttingar (úr sannprófun) | ✅ Beitt |
 
@@ -35,7 +35,7 @@ Verkefnið er lokið í grunninn. Allar 5 lykilniðurstöður hafa verið sannpr
 
 | Verkefni | Mikilvægi | Áætlað |
 |---------|-----------|--------|
-| **Senda 8 gagnaóskir** — tr@tr.is, vmst@vmst.is, hagstofa, sjukra, rikisend, for, hvin | 🔴 Há | 1 dag |
+| ~~**Senda 8 gagnaóskir**~~ — ✅ Sendar 14. apríl 2026 | ~~🔴 Há~~ | ✅ Lokið |
 | **Senda blogg til yfirferðar** — 1-2 einstaklingar (hagfræðingur eða Varða) | 🔴 Há | 1 dag |
 | **Yfirfara BLOG_FINAL.md** — lesa í heild og leiðrétta frá sjónarhóli höfundar | 🟡 Miðlungs | 2 klst |
 | **Setja inn ASÍ-þing fullyrðinguna nákvæmar** — "engar ályktanir í titlum, full texti ólesinn" | 🟡 Miðlungs | 30 mín |
