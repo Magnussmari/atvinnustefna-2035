@@ -14,6 +14,7 @@ venv/
 *~
 .vscode/
 .idea/
+.cursor/
 
 # Large PDF files (downloaded/reproduced by scripts from official URLs)
 # The verification script downloads the Atvinnustefna PDF automatically
@@ -30,3 +31,9 @@ letters/
 
 # Claude Code internal
 .claude/
+
+# Solution chapter — local working drafts
+lausnakafli/
+
+# Sensitive local notes — not for public repo
+archive/I work at the university of Akureyri, and we are b.md

@@ -10,16 +10,16 @@
 
 ## Stöðutafla / Status
 
-| # | Viðtakandi / Recipient | Efni / Subject | MEGA_REPORT aðgerð | Staða / Status |
-|---|------------------------|----------------|---------------------|----------------|
-| 01 | **Tryggingastofnun (TR)** | Fyrri starfsgrein nýrra lífeyrisþega eftir sjúkdómsgreiningu | M.3, R.2 | Tilbúið til sendingar |
-| 02 | **Vinnumálastofnun (VMST)** | Mánaðarlegt atvinnuleysi eftir atvinnugreinum | M.4 | Tilbúið til sendingar |
-| 03 | **Hagstofa Íslands** | Laus störf eftir atvinnugreinum | R.2 | Tilbúið til sendingar |
-| 04 | **Hagstofa Íslands** | Þátttaka í Eurostat isoc_eb_ai könnun | M.1 | Tilbúið til sendingar |
-| 05 | **Sjúkratryggingar Íslands** | Veikindafjarvistir eftir greiningu og atvinnugrein | R.2 | Tilbúið til sendingar |
-| 06 | **Ríkisendurskoðun** | Eftirfylgni 17% mælingarmsræmis | M.4 | Tilbúið til sendingar |
-| 07 | **Forsætisráðuneytið** | Aðferðafræði „55% / 130.000" spárinnar | — | Tilbúið til sendingar |
-| 08 | **Háskóla-, iðnaðar- og nýsköpunarráðuneytið** | Þátttaka í EWCS vinnuaðstæðnakönnun | M.2 | Tilbúið til sendingar |
+| # | Viðtakandi / Recipient | Efni / Subject | MEGA_REPORT aðgerð | Staða / Status | Sent |
+|---|------------------------|----------------|---------------------|----------------|------|
+| 01 | **Tryggingastofnun (TR)** | Fyrri starfsgrein nýrra lífeyrisþega eftir sjúkdómsgreiningu | M.3, R.2 | ✅ Sent | 14. apríl 2026 |
+| 02 | **Vinnumálastofnun (VMST)** | Mánaðarlegt atvinnuleysi eftir atvinnugreinum | M.4 | ✅ Sent | 14. apríl 2026 |
+| 03 | **Hagstofa Íslands** | Laus störf eftir atvinnugreinum | R.2 | ✅ Sent | 14. apríl 2026 |
+| 04 | **Hagstofa Íslands** | Þátttaka í Eurostat isoc_eb_ai könnun | M.1 | ✅ Sent | 14. apríl 2026 |
+| 05 | **Sjúkratryggingar Íslands** | Veikindafjarvistir eftir greiningu og atvinnugrein | R.2 | ✅ Sent | 14. apríl 2026 |
+| 06 | **Ríkisendurskoðun** | Eftirfylgni 17% mælingarmisræmis | M.4 | ✅ Sent | 14. apríl 2026 |
+| 07 | **Menningar-, nýsköpunar- og háskólaráðuneytið** | Aðferðafræði „55% / 130.000" spárinnar | — | ✅ Sent | 14. apríl 2026 |
+| 08 | **Háskóla-, iðnaðar- og nýsköpunarráðuneytið** | Þátttaka í EWCS vinnuaðstæðnakönnun | M.2 | ✅ Sent | 14. apríl 2026 |
 
 ---
 

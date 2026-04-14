@@ -1,92 +1,45 @@
-# Beiðni um upplýsingar — Sjúkratryggingar Íslands
+Sent 14 apríl
 
-**Viðtakandi:** sjukratryggingar@sjukra.is
-**Dagsetning:** 13. apríl 2026
-**Lagagrundvöllur:** Upplýsingalög nr. 140/2012, 5. gr.
-**Sendandi:** Magnús Smári Smárason, MA í félagsvísindum, Háskólinn á Akureyri
+**Efni: Upplýsingabeiðni á grundvelli upplýsingalaga – Gögn um sjúkradagpeninga eftir atvinnugreinum og sjúkdómsgreiningum**
 
----
+Sæl/l,
 
-## Efni
+Undirritaður vinnur að rannsóknarverkefni (meistarapróf, Háskólinn á Akureyri) um mælingarhæfni íslenskra stofnana gagnvart áhrifum tæknibreytinga á vinnumarkað. Rannsóknin greinir keðju frá auknu vinnuálagi vegna tæknibreytinga yfir í veikindafjarvistir, endurhæfingar- og örorkulífeyri.
 
-Beiðni um nafnlausar samantektartölur um veikindafjarvistir sundurliðaðar eftir sjúkdómsgreiningu (ICD-10 kaflaflokki) og atvinnugrein, árlega, frá 2020 til 2025.
+Hér vantar gögn um miðjuna á þessari keðju. Ekki liggja fyrir opinber gögn um greiðslur sjúkradagpeninga sundurliðuð eftir sjúkdómsgreiningu og atvinnugrein. Þetta hindrar greiningu á því hvort tilteknar atvinnugreinar (t.d. upplýsingatæknigeirinn, þar sem mikið hefur verið um uppsagnir) sýni aukningu í fjarvistum vegna geð- eða stoðkerfisraskana áður en starfsmenn flytjast inn í velferðarkerfið.
 
----
+**Umbeðin gögn (nafnlaus samantekt)**
+Óskað er eftir töflu með eftirfarandi breytum:
 
-## Rökstuðningur
+* **Tímabil:** Árlega, 2020 til 2025.
+* **Sjúkdómsgreining:** ICD-10 kaflaflokkar (F00–F99 geðraskanir, M00–M99 stoðkerfi, annað).
+* **Atvinnugrein:** ÍSAT 2008 á bókstafsstigi (A til U) eða að lágmarki forgangsgeirar (J, K, M, N, O-Q).
+* **Mæling:** Heildarfjöldi veikindadaga og heildarfjöldi greiðslna/einstaklinga.
 
-Rannsókn höfundar á mælingarhæfni íslenskra stofnana gagnvart áhrifum tæknibreytinga á vinnumarkað og velferðarkerfi hefur leitt í ljós fimm þrepa keðju sem tengir tæknibreytingar við inngang í velferðarkerfið:
+*Dæmi um framsetningu:*
 
-1. Innleiðing tækni á vinnustað
-2. Aukið vinnuálag og streita
-3. Veikindafjarvistir
-4. Endurhæfingarlífeyrir
-5. Örorkulífeyrir
+| Ár | ÍSAT-flokkur | ICD-kafli | Veikindadagar | Fjöldi greiðslna |
+| :--- | :--- | :--- | :--- | :--- |
+| 2022 | J | F | [n] | [n] |
 
-Gögn liggja fyrir um þrep 4 og 5 (Tryggingastofnun) og þrep 1 og 2 (könnun Vörðu 2026 sýnir að 44% launþega sem verða fyrir áhrifum tæknibreytinga upplifa aukið vinnuálag). Hins vegar er þrep 3 — veikindafjarvistir — algerlega óupplýst hvað varðar tengsl við sjúkdómsgreiningu og atvinnugrein. Sjúkratryggingar greiða veikindabætur en birta ekki sundurliðun á greiðslum eftir sjúkdómsgreiningu og atvinnugrein.
+**Persónuvernd:** Ekki er óskað eftir einstaklingsgögnum. Reiti með færri en 5 einstaklingum skal fella saman eða dylja til að tryggja nafnleynd.
 
-Þessi gagnaeyða hindrar alla greiningu á því hvort ákveðnar atvinnugreinar (t.d. upplýsingatæknigeirinn, þar sem 1.300 störf hafa tapast á árunum 2022-2025) sýni aukningu í veikindafjarvistum vegna streitu og geðraskana áður en starfsmenn flytjast inn í velferðarkerfið.
+**Lagalegur grundvöllur og beiðni um gagnakeyrslu**
+Beiðni þessi er sett fram á grundvelli 5. gr. upplýsingalaga nr. 140/2012, sem veitir rétt til aðgangs að fyrirliggjandi gögnum í vörslu stjórnvalda. Ég geri mér grein fyrir því að samkvæmt ákvæðum 5. gr. nær rétturinn til þegar tilbúinna skjala. Sé umbeðin samantekt ekki til sem fyrirfram samsett skjal, er þess þó virðingarfyllst óskað, af greiðvikni, að hún verði tekin saman úr gagnagrunnum stofnunarinnar teljist það framkvæmanlegt án of mikillar fyrirhafnar. Jafnframt vil ég benda á að beiðnin er lögð fram í þágu rannsókna og vísa í því samhengi til heimilda stjórnvalda til að veita aðgang að gögnum vegna rannsókna, sbr. sjónarmið að baki 33. gr. laganna.
 
-Til samanburðar: á opinbera geiranum eru meðalveikindadagar 16 á ári samanborið við 8 á einkageiranum (Iceland Monitor, febrúar 2026). Þetta 2:1 hlutfall bendir til kerfisbundins mismunar sem krefst nánari greiningar.
+Verði beiðninni hafnað að hluta eða öllu leyti óska ég eftir skriflegum rökstuðningi þar sem tilgreindur er lagagrundvöllur synjunar í samræmi við 19. gr. laganna.
 
----
+**Um rannsakandann og verkefnið**
+* **Nafn:** Magnús Smári Smárason, MA í félagsvísindum, Háskólinn á Akureyri.
+* **Ritgerð:** „Beyond Fragmentation: A Life-Value Alternative for AI Governance" (2026).
+* **Verkefnasíða/Gögn:** [https://www.smarason.is/is/verkefni/beyond-fragmentation](https://www.smarason.is/is/verkefni/beyond-fragmentation) og á GitHub.
+* **Gagnsæi:** Beiðnin er samin með aðstoð gervigreindar sem hluti af aðferðafræði verkefnisins, en staðfest og ábyrgst af höfundi.
 
-## Umbeðin gögn
-
-Óskað er eftir nafnlausri samantektartöflu sem sýnir:
-
-### Breytur
-
-1. **Tímabil:** Árlega, 2020 til 2025
-2. **Sjúkdómsgreining:** ICD-10 á kaflaflokki (F00–F99 geðraskanir, M00–M99 stoðkerfi, annað)
-3. **Atvinnugrein:** ÍSAT 2008 / NACE á bókstafsstigi (A til U), eða forgangsgeirar (J, K, M, N, O-Q)
-4. **Mæling:** Heildarfjöldi veikindadaga OG heildarfjöldi greiðslna
-
-### Persónuvernd
-
-- Eingöngu er óskað eftir samantektartölum, ekki einstaklingsgögnum
-- Reiti með færri en 5 einstaklingum skal fella saman
-- Mögulegt er að nota breiðari ICD-flokka (t.d. „geðraskanir" vs. „stoðkerfisraskanir" vs. „annað") ef það tryggir nafnleynd
-
----
-
-## Lagalegur grundvöllur
-
-Beiðni þessi er sett fram á grundvelli 5. gr. upplýsingalaga nr. 140/2012. Ef umbeðin samantekt er ekki til sem fyrirfram samsett skjal, er þess óskað að hún verði unnin úr fyrirliggjandi gögnum á grundvelli 2. mgr. 7. gr. sömu laga.
-
----
-
-## Um rannsakandann
-
-Magnús Smári Smárason
-MA í félagsvísindum, Háskólinn á Akureyri
-Meistararitgerð (90 ECTS): „Beyond Fragmentation: A Life-Value Alternative for AI Governance" (2026)
-Verkefnasíða: https://www.smarason.is/is/verkefni/beyond-fragmentation
-Netfang: magnus@smarason.is
-
----
-
-## Rannsóknarverkefnið
-
-Þessi beiðni er hluti af opnu rannsóknarverkefni sem greinir mælingarhæfni íslenskra stofnana gagnvart áhrifum gervigreindar á vinnumarkað. Allar niðurstöður, heimildir og gögn eru birt opinberlega:
-
-**GitHub:** https://github.com/Magnussmari/atvinnustefna-2035
-
----
-
-## Gagnsæisyfirlýsing
-
-Þessi beiðni var samin með aðstoð gervigreindarkerfis (Claude, Anthropic) sem höfundur hefur þróað sem hluta af rannsóknarverkefni sínu. Höfundur hefur farið yfir og staðfest efni beiðninnar í heild sinni áður en hún var send. Gervigreindin aðstoðaði við uppbyggingu texta og heimildavinnu; allar fullyrðingar, röksemdir og ákvarðanir eru á ábyrgð höfundar.
-
----
-
-## Svartími
-
-Samkvæmt 17. gr. upplýsingalaga nr. 140/2012 er óskað eftir svari innan 7 virkra daga.
-
----
+**Svartími**
+Samkvæmt 17. gr. upplýsingalaga nr. 140/2012 er almennur afgreiðslufrestur 7 dagar en getur verið allt að 20 dagar þegar óskað er gagna í rannsóknarskyni skv. 33. gr. Ég óska eftir svari við því hvort orðið verði við beiðninni svo fljótt sem verða má, en krefjist hún lengri afgreiðslutíma en 7 daga óska ég eftir tilkynningu um áætlaðan svartíma í samræmi við lögin.
 
 Virðingarfyllst,
 
 Magnús Smári Smárason
-13. apríl 2026
+magnus@smarason.is
+14. apríl 2026
