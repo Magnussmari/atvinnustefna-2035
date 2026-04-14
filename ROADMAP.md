@@ -44,7 +44,7 @@ Verkefnið er lokið í grunninn. Allar 5 lykilniðurstöður hafa verið sannpr
 
 | Verkefni | Mikilvægi | Athugasemd |
 |---------|-----------|------------|
-| **Birta á samráðsgátt** — formleg umsögn um Atvinnustefnu 2035 | 🔴 Há | Fresturinn rennur út [athugaðu dagsetningu] |
+| ~~**Birta á samráðsgátt**~~ — ❌ Ekki lengur mögulegt | ~~🔴 Há~~ | Samráð lokið 9. des 2025. Stefnan **samþykkt af ríkisstjórn 10. apríl 2026**. Rannsóknin er nú **eftirúttekt á samþykktri stefnu** — sterkari framing. |
 | **Birta blogg á smarason.is** | 🟡 Miðlungs | Eftir yfirferð |
 | **Gera GitHub repo opinbert á LinkedIn/X** | 🟡 Miðlungs | Með tengil á repo |
 | **Svar við gagnaóskum** — skrá í verification/responses/ | 🟢 Lágt | Þegar svör berast |
