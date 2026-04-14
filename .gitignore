@@ -32,6 +32,21 @@ letters/
 # Claude Code internal
 .claude/
 
+# Cursor editor
+.cursor/
+
+# Internal working documents — not for public repo
+AGENTS.md
+AGENCY_MAP.md
+BLOG_FINAL.md
+CURSOR_KICKOFF_PROMPT_PACK.md
+DESIGN.md
+MEMO_EMBATTISMANN.md
+dashboard-spec.md
+*-BLOG*.md
+*-MEMO*.md
+*-DRAFT*.md
+
 # Solution chapter — local working drafts
 lausnakafli/
 
