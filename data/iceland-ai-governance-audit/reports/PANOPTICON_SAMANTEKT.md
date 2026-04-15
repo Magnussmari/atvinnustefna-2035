@@ -142,7 +142,7 @@ Njósnasveitin uppgötvaði JVS00001.px (lausstaðatöfluna) sem lokaði framlei
 
 | Staðreynd | Sönnun |
 |-----------|---------|
-| Ísland undanskilið frá Eurostat AI-könnun (isoc_eb_ai) | Staðfest — Ísland er EKKI í gögnunum |
+| Ísland framkvæmdi isoc_e (AI-hluti) 2025 — birt á Hagstofu.is mars 2026 | Gögn eru til en EKKI send til Eurostat — alþjóðlegur samanburður enn ómögulegt |
 | Ísland undanskilið frá EWCS 2024 | Staðfest — Eurofound skjöl |
 | Ekkert íslenskt verkalýðsfélag gaf út AI-skjal | ASÍ, VR, BSRB, BHM, Efling — ekkert |
 | BHM sendi almenna umsögn (2 bls.) um AI-aðgerðaáætlun | Engin gögn, engin geira-/starfsgreinargreining |
@@ -220,7 +220,7 @@ Niðurstöður:
 | FB-1: Geðgreiningar hraðar | **STYRKT** | Þunglyndislyf nr. 1 + 4× þunglyndi atvinnulausra |
 | FB-2: Öldunarskýring | AÐ HLUTA HRAKIÐ | Óbreytt |
 | FC-1: Tímaröð fyrirtækja | **STYRKT** | Advania Copilot + CCP Aura + Ísavía bætast við |
-| FC-3: AI-notkun | **STAÐFEST FJARVIST** | Ísland er EKKI í Eurostat isoc_eb_ai |
+| FC-3: AI-notkun | **AÐ HLUTA LEYST** | isoc_e (AI-hluti) framkvæmd 2025, birt mars 2026 — ekki í Eurostat enn |
 | FD-1: Reikniritsstjórnun | **AÐ HLUTA PRÓFANLEGT** | Varða 2026 gefur fyrstu vinnuaðstæðugögn |
 | FD-2: Kulnun | **STYRKT** | Þunglyndisgögn + Varða stressutal |
 

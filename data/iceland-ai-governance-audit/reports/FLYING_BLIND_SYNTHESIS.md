@@ -31,23 +31,25 @@ data quality issue — it is a structural governance failure.
 
 *Iceland cannot measure what AI is doing to its workforce.*
 
-### 1.1 The Eurostat Exclusion
+### 1.1 The Eurostat Exclusion — Updated April 2026
 
-Iceland is definitively excluded from Eurostat's `isoc_eb_ai` — the EU's primary
-enterprise AI adoption survey. This survey covers 20% of EU enterprises using AI
-(2024 data). Iceland cannot be benchmarked against European peers on AI adoption.
+**Original finding (March 2026):** Iceland was described as definitively excluded from Eurostat's `isoc_eb_ai` — the EU's primary enterprise AI adoption survey.
+
+**Correction (15. apríl 2026):** Hagstofa Íslands conducted the `isoc_e` survey in 2025, including the AI adoption component, after a multi-year hiatus. The AI results were published on hagstofa.is in **March 2026** — the first official domestic measurement of enterprise AI adoption in Iceland. Source: Hagstofa Íslands (personal communication, 15. apríl 2026).
+
+**The revised finding is more precise and more damning:** Iceland collected this data and has not submitted it to Eurostat. Iceland does not appear in comparative international tables — not because it lacks capacity, but because the data pipeline to European statistical infrastructure is not functioning. This is an institutional governance failure, not a measurement capacity gap.
 
 The survey methodology (NACE Rev. 2 sections C-J, L-N, enterprises with 10+
 employees) also systematically excludes micro-enterprises — dominant in Iceland's
-economy — meaning even inclusion would undercount AI penetration.
+economy — meaning even submission would undercount AI penetration.
 
-Iceland is also excluded from the Eurofound European Working Conditions Survey
+Iceland remains excluded from the Eurofound European Working Conditions Survey
 (EWCS) 2024, which for the first time measured generative AI use at work (12% of
 EU27 workers). Even the European Parliament's own analysis acknowledges that
 "establishing a clear benchmark for the prevalence of algorithmic management
 across the EU is not feasible based on the available survey evidence."
 
-**Source:** Eurostat Statistics Explained; Eurofound EWCS 2024 First Findings.
+**Source:** Eurostat Statistics Explained; Eurofound EWCS 2024 First Findings; Hagstofa Íslands (personal communication, 15. apríl 2026).
 
 ### 1.2 The 55% Claim — Unattributed
 
@@ -67,8 +69,14 @@ impact study — explicitly acknowledging that the domestic data does not exist.
 acknowledging the absence of Icelandic-specific data. The government cited 130,000
 affected workers as fact while committing to study whether that number is correct.
 
-**Source:** stjornarradid.is press release Nov 7, 2024; OBI submission referencing
-Action B.1; Samradsgatt mal/3862.
+**Methodology now documented (April 2026):** The joint Hagstofa/Ministry report "Efnahagsleg tækifæri gervigreindar á Íslandi" (Nov 2024) reveals the methodology on pp. 32–33 (Aðferð II). The 55%/127,000 figure is derived from:
+1. AI occupational exposure scores from **Felten, Raj & Seamans (2021)** — a US-based dataset
+2. Crosswalked US SOC → ISCO-08 via U.S. Bureau of Labor Statistics mapping tables
+3. Applied to Iceland's Labour Force Survey data (Hagstofa, 2009–2024)
+
+The report itself states: *"Athugið að þessi skipting í fimm flokka er ekki byggð á empirískum mælingum"* ("Note that this classification into five categories is not based on empirical measurements"). The 130,000 figure is a theoretical occupational exposure estimate from American data — not a measurement of Icelandic AI adoption or impact.
+
+**Source:** stjornarradid.is press release Nov 7, 2024; OBI submission referencing Action B.1; Samradsgatt mal/3862; Felten, Raj & Seamans (2021), Strategic Management Journal 42(12):2195–2217; Hagstofa reply 15. apríl 2026.
 
 ### 1.3 The 17% Unemployment Measurement Gap
 

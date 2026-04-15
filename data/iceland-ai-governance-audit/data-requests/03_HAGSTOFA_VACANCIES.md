@@ -1,4 +1,50 @@
 Sent 14. apríl
+**Staða: LOKIÐ — gögn til staðar** ✅
+
+---
+
+## Svar nr. 1 — 15. apríl 2026
+
+**Frá:** Hagstofa Íslands (Hjörvar Pétursson)
+**Dags:** 15. apríl 2026
+**Efni svars:** Vísað á PxWeb-töflu JVS00001
+
+Hagstofa benti á töflu **JVS00001** í PxWeb:
+`https://px.hagstofa.is/pxis/pxweb/is/Samfelag/Samfelag__vinnumarkadur__lausstorf/JVS00001.px`
+
+**Túlkun:** Gögn eru þegar opinberlega aðgengileg í gegnum PxWeb — engin sérstök gagnakeyrsla þarf.
+
+### Hvað er til í JVS00001
+
+| Þáttur | Innihald |
+|--------|---------|
+| Tímabil | F1 2019 – F4 2025 (28 ársfjórðungar) |
+| Mælieiningar | Fjöldi starfa, fjöldi lausra starfa, hlutfall lausra starfa (%) |
+| J. Upplýsingar og fjarskipti | Sér flokkur ✅ |
+| K. Fjármála- og vátryggingastarfsemi | Sér flokkur ✅ |
+| F. Byggingarstarfsemi | Sér flokkur ✅ |
+| M og N | Sameinaðir (M-N) ⚠️ |
+| G, H og I | Sameinaðir (G-I) ⚠️ |
+
+### Lykilgögn J-geirans (Upplýsingatækni)
+
+| Ársfjórðungur | Hlutfall lausra starfa |
+|---------------|----------------------|
+| 2019 F1 | 5,4% |
+| 2025 F1 | 0,3% |
+| 2025 F4 | 0,9% |
+
+**Staðfestir rannsóknarniðurstöðuna:** Hrun í lausum störfum J-geirans úr 5,4% í 0,3% — ein mesta breyting í öllum gagnasafninu.
+
+### Staða gagna í verkefninu
+
+Gögn **þegar til staðar** í:
+`data/iceland-ai-governance-audit/data/raw/vacancies_quarterly.csv`
+(sótt með `hagstofa_pxweb.py --vacancies`, 1170 raðir)
+
+**Engar frekari aðgerðir þarf** á þessari beiðni.
+
+---
 
 **Efni: Upplýsingabeiðni á grundvelli upplýsingalaga – Gögn um laus störf eftir atvinnugreinum**
 

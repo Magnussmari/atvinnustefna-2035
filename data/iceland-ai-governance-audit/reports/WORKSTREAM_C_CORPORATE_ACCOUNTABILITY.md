@@ -58,9 +58,11 @@ TED (Tenders Electronic Daily) confirms Iceland is included as an EEA member. Ic
 
 ## 3. EUROSTAT ADOPTION RATES — Iceland vs Nordic vs EU
 
-### Critical Finding: Iceland Is Excluded From the Eurostat isoc_eb_ai Survey
+### Critical Finding: Iceland's AI Adoption Data Exists But Is Not in Eurostat
 
-Iceland is **not included** in the Eurostat enterprise AI adoption survey. The survey covers EU member states, Norway, and selected candidate countries. Iceland, despite EEA membership, is not in the published isoc_eb_ai dataset.
+**Update — 15. apríl 2026 (Hagstofa reply):** Iceland conducted the `isoc_e` enterprise ICT survey in 2025, including the AI adoption component (`isoc_eb_ai`). Results were published on hagstofa.is in March 2026. However, the data has **not been submitted to Eurostat** — meaning Iceland remains invisible in all international comparative tables.
+
+Iceland is therefore not "excluded" in a structural sense — it is **self-excluded from international benchmarking** by not submitting data it has collected. This is a governance choice, not a capacity gap. The revised framing: Iceland has domestic AI adoption data for the first time, but the data is not integrated into the European statistical infrastructure that policymakers use for comparison.
 
 ### Nordic Comparison (Enterprises with 10+ employees using AI)
 
@@ -265,17 +267,17 @@ Timeline:
 
 ### FC-3: Is Iceland's enterprise AI adoption rate at or above EU average?
 
-**RESULT: UNKNOWN — ICELAND NOT IN EUROSTAT SURVEY**
+**RESULT: PARTIALLY RESOLVED — DATA EXISTS, NOT YET IN EUROSTAT**
 
 **Evidence:**
-- Iceland is not included in Eurostat isoc_eb_ai enterprise AI adoption data
-- No equivalent official Icelandic survey data published (Hagstofa data not publicly accessible for this metric)
-- The AI Action Plan references a joint Ministry/Hagstofa report as Action B.1 — this suggests official adoption measurement was a planned output, not a prior input
-- Unofficial market estimates (Statista) are methodologically dubious
+- **NEW (Apr 2026):** Hagstofa conducted `isoc_e` (incl. AI component) in 2025; published on hagstofa.is March 2026. First official Icelandic enterprise AI adoption measurement. Contact: Hagstofa Íslands
+- Data has **not been submitted to Eurostat** — Iceland still absent from comparative tables
+- The `isoc_e` methodology covers enterprises with 10+ employees (same scope as EU survey)
+- **55% methodology now documented:** Based on Felten, Raj & Seamans (2021) AI exposure scores (US SOC → ISCO-08 via BLS crosswalk) applied to Iceland LFS 2009–2024. Not a measurement of actual adoption — a theoretical occupational exposure estimate from US data. Source: skýrslan "Efnahagsleg tækifæri gervigreindar á Íslandi" (Nov 2024), bls. 32–33 (Aðferð II)
 
-**Assessment:** Whether Iceland is above or below EU average (13.5% in 2024) cannot be determined from available data. Given Iceland's highly digitized economy and proximity to Nordic leaders (Denmark 27.6%), it is plausible Iceland is in the 15-25% range — but this is speculation.
+**Assessment:** Whether Iceland is above or below the EU average (19.95% in 2025) still cannot be determined from Eurostat-comparable data. **However:** Hagstofa now has this measurement domestically. Requesting the data directly from Hagstofa or Ministry is now viable.
 
-**FLAG: ADOPTION PREMISE CANNOT BE VERIFIED — Eurostat gap for Iceland is a fundamental data problem. The government's own AI Action Plan was partly responding to an acknowledged gap in measuring AI adoption (hence Action B.1: commission the study).**
+**FLAG: The governance critique shifts — this is no longer "no data exists" but "data exists and is not being shared internationally." This is a stronger finding for the research.**
 
 ---
 

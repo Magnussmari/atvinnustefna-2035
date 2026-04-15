@@ -1,4 +1,49 @@
 Sent 14. apríl
+**Staða: SVAR MÓTTEKIÐ — krefst eftirfylgni við ráðuneyti** ⚡
+
+---
+
+## Svar nr. 1 — 15. apríl 2026
+
+**Frá:** Þorsteinn Siglaugsson, Hagstofa Íslands (thorsteinn.siglaugsson@hagstofa.is)
+**Dags.:** 15. apríl 2026
+**Viðtakendur:** Heiðrún, Magnús (CC: Þorsteinn)
+
+### Meginefni svars
+
+**1. isoc_eb_ai er HLUTI af isoc_e (ekki sjálfstæð könnun)**
+- Hagstofa framkvæmdi könnunina á síðasta ári (2025) eftir nokkurra ára hlé
+- Gervigreindarhlutinn var gefinn út á vef Hagstofunnar í mars 2026
+- Gögn HAFA EKKI verið send til Eurostat — þess vegna sést „Ekki kannað" í Eurostat-töflum
+- Heimild: https://hagstofa.is/talnaefni/atvinnuvegir/visindi-og-taekni/upplysingataekninotkun-fyrirtaekja/
+
+**2. Aðferðafræði 55%-kröfunnar er nú staðfest (sjá skýrslu bls. 32-33)**
+- Hagstofa vann sérvinnslur vinnumarkaðsgagna fyrir ráðuneytið
+- Aðferð II (Hagstofa): Felten, Raj & Seamans (2021) AI-exposure scores → US SOC → ISCO-08 (BLS crosswalk) → Íslenska vinnumarkaðskönnun 2009–2024
+- **Ráðuneytið er kaupandi sérvinnslunnar — þangað þarf að leita um gögn**
+
+**3. Tilvísun á skýrsluna**
+- PDF: https://www.stjornarradid.is/library/04-Raduneytin/Haskola---idnadar--og-nyskopunarraduneytid/Efnahagsleg%20t%C3%A6kif%C3%A6ri%20gervigreindar%20%C3%A1%20%C3%8Dslandi%20lokaa%C3%BAtg%C3%A1fa%20n%C3%B3vember%202024.pdf
+- Aðferðafræðin er á bls. 32–33 (Aðferð I og Aðferð II)
+
+### Lykilniðurstöður úr aðferðafræðigreiningunni
+
+| Þáttur | Innihald |
+|--------|---------|
+| Uppspretta exposure-gagna | Felten, Raj & Seamans (2021) — bandarískar rannsóknir |
+| Starfaflokkunarkerfi | US SOC → ISCO-08 (BLS crosswalk) |
+| Íslenskt gagnagrunntag | Vinnumarkaðskönnun Hagstofu 2009–2024 (sérvinnslur) |
+| 55% = | Hlutfall starfa sem falla í flokka 1–2 (mjög mikil og frekar mikil áhrif) |
+| Eigandi sérvinnslunnar | Háskóla-, iðnaðar- og nýsköpunarráðuneytið |
+| Birtingarmynd | Engin innlend mæling á raunnotkun — þetta er líkansspá úr US-gögnum |
+
+### Eftirfylgni sem þarf
+
+- [ ] **Beiðni til ráðuneytisins** um sérvinnslugögnin (starfaflokkar × exposure-hlutfall)
+- [ ] **Skoða nýja AI-könnunina** á vef Hagstofu (mars 2026 — fyrsta innlenda mælingin)
+- [ ] **Uppfæra FC-3** í rannsóknarskýrslum: Ísland er EKKI lengur algjörlega undanskilið — gögn eru til en óbirt til Eurostat
+
+---
 
 **Efni: Fyrirspurn og upplýsingabeiðni – Þátttaka Íslands í Eurostat könnun um gervigreind (isoc_eb_ai)**
 

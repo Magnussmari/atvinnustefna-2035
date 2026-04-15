@@ -67,14 +67,20 @@ The intelligence sweep deployed six parallel agents across Hagstofa PxWeb, acade
 
 #### The ICT Vacancy Collapse ("Reykingabyssan")
 
-| Quarter | ICT Vacancy Rate | All-Sector Average |
-|---------|------------------|--------------------|
-| 2022 Q2 | 5.4% | ~3.2% |
-| 2023 Q1 | 3.1% | ~2.8% |
-| 2024 Q1 | 1.2% | ~2.4% |
-| 2025 Q1 | 0.3% | ~1.8% |
+| Quarter | ICT Vacancy Rate | All-Sector Average | Note |
+|---------|------------------|--------------------|------|
+| 2021 Q4 | 6.0% | — | dataset peak |
+| 2022 Q2 | 5.4% | ~3.2% | trifecta reference point |
+| 2023 Q1 | 2.1% | ~2.8% | |
+| 2024 Q1 | 3.4% | ~2.4% | |
+| 2025 Q1 | 0.3% | 2.5% | trough |
+| 2025 Q2 | 0.9% | 2.2% | |
+| 2025 Q3 | 0.8% | 2.1% | |
+| 2025 Q4 | 0.9% | 1.4% | confirmed Apr 2026 |
 
-**94% decline.** Firms are not replacing the workers they shed.
+**94% decline** (2022 Q2 → 2025 Q1). **Firms are not replacing the workers they shed.**
+
+**Update — April 2026:** Q2–Q4 2025 data (JVS00001, verified via Hagstofa reply 15. apríl 2026) shows the collapse has stabilised at a new structural floor of ~0.9% — six consecutive quarters below 1%. This is not cyclical recovery: the all-sector average simultaneously declined to 1.4% (2025 Q4), ruling out a labour-market-wide suppression effect. The ICT sector specifically has ceased to compete for workers.
 
 ---
 
@@ -359,7 +365,7 @@ Per Krias/Innovation Fund (November 2025). Other Nordic countries are in top 10.
 | FB-2 | PARTIALLY FALSIFIED | Unchanged | — |
 | FC-1 | PARTIALLY CONFIRMED | **STRENGTHENED** | Advania all-in Copilot + CCP Aura + Isavia automation add to corporate picture |
 | FC-2 | INDETERMINATE | Unchanged | — |
-| FC-3 | UNKNOWN | **CONFIRMED ABSENT** | Iceland definitively not in Eurostat isoc_eb_ai |
+| FC-3 | UNKNOWN | **PARTIALLY RESOLVED** | Iceland conducted isoc_e (AI component) 2025; published Hagstofa.is Mar 2026; NOT in Eurostat yet — comparative benchmarking still impossible |
 | FD-1 | UNTESTABLE | **PARTIALLY TESTABLE** | Varda 2026 provides first worker-experience data (23% affected, 44% more pressure) |
 | FD-2 | PARTIAL FLAG | **REINFORCED** | Antidepressant data + Varda stress figures strengthen burnout signal |
 

@@ -130,7 +130,7 @@ The investigation pre-registered 11 falsification tests across 4 workstreams. If
 | FB-3: Measurement discontinuity | CONFIRMED | 17% gap acknowledged (neutral — methodology finding) |
 | FC-1: Corporate AI-headcount link | PARTIALLY CONFIRMED | Landsbankinn explicit, Islandsbanki partial (supports) |
 | FC-2: Temporal sequence | INDETERMINATE | No quarterly sector unemployment available |
-| FC-3: Iceland in Eurostat AI survey | CONFIRMED ABSENT | Iceland definitively excluded |
+| FC-3: Iceland in Eurostat AI survey | PARTIALLY RESOLVED | isoc_e (AI component) conducted 2025, published Mar 2026 — not yet in Eurostat |
 | FD-1: Worker experience data | PARTIALLY TESTABLE | Varda 2026 provides first data (supports) |
 | FD-2: Burnout attribution | UNTESTABLE | Cannot isolate AI-specific burnout |
 
