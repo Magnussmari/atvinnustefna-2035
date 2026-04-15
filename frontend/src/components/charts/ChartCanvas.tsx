@@ -43,16 +43,15 @@ export function ChartCanvas({
       aria-label={`${chartKind} chart placeholder in ${state} state`}
     >
       <div className="chart-canvas__grid" />
-      <div className="chart-canvas__ink" />
       {polylinePath ? (
         <svg className="chart-canvas__svg" viewBox="0 0 320 120" aria-hidden="true">
           <path d={polylinePath} />
         </svg>
       ) : null}
       <p className="chart-canvas__label">
-        <strong>{chartKind}</strong> chart view
+        <strong>{chartKind}</strong> chart preview
       </p>
-      <p className="chart-canvas__note">{fallbackNote}</p>
+      <p className="chart-canvas__note">{payload?.summary ?? fallbackNote}</p>
       {rows.length ? (
         <div className="chart-canvas__rows">
           {rows.slice(0, 5).map((row) => (

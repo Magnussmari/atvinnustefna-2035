@@ -70,7 +70,7 @@ button {
 .top-bar {
   display: flex;
   justify-content: space-between;
-  gap: var(--space-6);
+  gap: var(--space-4);
   align-items: flex-end;
   margin-bottom: var(--space-4);
   padding: var(--space-5);
@@ -81,8 +81,9 @@ button {
 
 .top-bar h1 {
   margin: var(--space-1) 0 0;
-  font-size: clamp(1.25rem, 1rem + 1vw, 1.85rem);
+  font-size: clamp(1.35rem, 1.1rem + 0.9vw, 1.8rem);
   line-height: 1.25;
+  letter-spacing: -0.01em;
 }
 
 .top-bar__eyebrow {
@@ -103,7 +104,7 @@ button {
 
 .shell-grid {
   display: grid;
-  grid-template-columns: 220px 1fr 260px;
+  grid-template-columns: 250px 1fr 230px;
   gap: var(--space-4);
 }
 
@@ -168,9 +169,11 @@ button {
   background: transparent;
   color: var(--text-secondary);
   text-align: left;
-  padding: var(--space-2) var(--space-3);
+  padding: 10px var(--space-3);
   border-radius: var(--radius-sm);
   cursor: pointer;
+  font-size: 0.9rem;
+  line-height: 1.35;
 }
 
 .left-nav button:hover,
@@ -214,7 +217,7 @@ button {
 
 .page-header h2 {
   margin: var(--space-2) 0 var(--space-2);
-  font-size: clamp(1.25rem, 1rem + 1vw, 1.75rem);
+  font-size: clamp(1.45rem, 1.2rem + 0.95vw, 2rem);
 }
 
 .page-header__subheading {
@@ -325,7 +328,7 @@ button {
 
 .module-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, minmax(320px, 1fr));
   gap: var(--space-3);
 }
 
@@ -334,12 +337,13 @@ button {
   border-radius: var(--radius-md);
   background: var(--bg-surface-1);
   padding: var(--space-4);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.22);
 }
 
 .panel__header h3 {
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.06rem;
+  letter-spacing: -0.01em;
 }
 
 .panel__header p {
@@ -422,29 +426,31 @@ button {
 }
 
 .chart-canvas {
-  min-height: 186px;
-  border: 1px dashed var(--border-strong);
+  min-height: 210px;
+  border: 1px solid var(--border-strong);
   border-radius: var(--radius-md);
   position: relative;
   overflow: hidden;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: stretch;
   background: color-mix(in srgb, var(--bg-surface-3) 90%, black);
-  padding: var(--space-4);
+  padding: var(--space-3);
 }
 
 .chart-canvas__svg {
   position: absolute;
-  inset: auto 12px 16px 12px;
+  inset: 28px 12px auto 12px;
   width: calc(100% - 24px);
-  height: 130px;
+  height: 106px;
   overflow: visible;
 }
 
 .chart-canvas__svg path {
   fill: none;
-  stroke: color-mix(in srgb, var(--series-primary) 85%, white);
-  stroke-width: 2.5;
+  stroke: color-mix(in srgb, var(--series-primary) 88%, white);
+  stroke-width: 2.2;
   vector-effect: non-scaling-stroke;
 }
 
@@ -454,122 +460,52 @@ button {
   background-image:
     linear-gradient(to right, color-mix(in srgb, var(--border-subtle) 60%, transparent) 1px, transparent 1px),
     linear-gradient(to bottom, color-mix(in srgb, var(--border-subtle) 60%, transparent) 1px, transparent 1px);
-  background-size: 36px 36px;
-  opacity: 0.28;
-}
-
-.chart-canvas__ink {
-  position: absolute;
-  inset: auto 10% 26% 10%;
-  height: 44%;
-  border-radius: var(--radius-sm);
-  opacity: 0.9;
+  background-size: 42px 32px;
+  opacity: 0.2;
 }
 
 .chart-canvas__label {
-  margin: 0;
+  margin: 0 0 2px;
   z-index: 1;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  font-size: 0.74rem;
+  letter-spacing: 0.05em;
+  font-size: 0.68rem;
   color: var(--text-secondary);
 }
 
 .chart-canvas__note {
-  margin: var(--space-1) 0 0;
+  margin: 0;
   z-index: 1;
-  color: var(--text-muted);
-  font-size: 0.8rem;
-  max-width: 48ch;
-  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.76rem;
+  line-height: 1.35;
+  text-align: left;
 }
 
 .chart-canvas__rows {
   margin-top: var(--space-2);
   z-index: 1;
-  width: min(100%, 520px);
+  width: 100%;
   display: grid;
-  gap: 4px;
+  gap: 3px;
 }
 
 .chart-canvas__row {
   display: flex;
   justify-content: space-between;
   gap: var(--space-2);
-  font-size: 0.78rem;
+  font-size: 0.75rem;
   color: var(--text-secondary);
-  border-top: 1px solid color-mix(in srgb, var(--border-subtle) 70%, transparent);
-  padding-top: 4px;
+  border: 1px solid color-mix(in srgb, var(--border-subtle) 70%, transparent);
+  border-radius: 6px;
+  padding: 4px 8px;
+  background: color-mix(in srgb, var(--bg-surface-2) 92%, black);
 }
 
 .chart-canvas__row strong {
   color: var(--text-primary);
   font-family: var(--font-mono);
-  font-size: 0.76rem;
-}
-
-.chart-canvas--line .chart-canvas__ink {
-  background: linear-gradient(180deg, transparent 20%, color-mix(in srgb, var(--series-primary) 55%, transparent));
-  clip-path: polygon(0 78%, 15% 62%, 30% 70%, 45% 50%, 60% 58%, 75% 35%, 100% 42%, 100% 100%, 0 100%);
-}
-
-.chart-canvas--area .chart-canvas__ink {
-  background: linear-gradient(
-    180deg,
-    color-mix(in srgb, var(--series-secondary) 45%, transparent),
-    color-mix(in srgb, var(--series-secondary) 10%, transparent)
-  );
-  clip-path: polygon(0 88%, 20% 70%, 45% 66%, 62% 58%, 79% 62%, 100% 46%, 100% 100%, 0 100%);
-}
-
-.chart-canvas--radar .chart-canvas__ink {
-  width: 48%;
-  left: 26%;
-  right: 26%;
-  top: 28%;
-  bottom: auto;
-  height: 48%;
-  background: color-mix(in srgb, var(--series-tertiary) 40%, transparent);
-  clip-path: polygon(50% 6%, 87% 27%, 84% 71%, 50% 94%, 16% 72%, 11% 28%);
-}
-
-.chart-canvas--heatmap .chart-canvas__ink {
-  background:
-    repeating-linear-gradient(90deg, color-mix(in srgb, var(--state-missing) 25%, transparent) 0 16px, transparent 16px 20px),
-    repeating-linear-gradient(180deg, color-mix(in srgb, var(--state-provisional) 25%, transparent) 0 16px, transparent 16px 20px);
-}
-
-.chart-canvas--waterfall .chart-canvas__ink {
-  background:
-    linear-gradient(
-      90deg,
-      color-mix(in srgb, var(--series-primary) 65%, transparent) 0 16%,
-      transparent 16% 22%,
-      color-mix(in srgb, var(--series-negative) 65%, transparent) 22% 40%,
-      transparent 40% 46%,
-      color-mix(in srgb, var(--series-secondary) 65%, transparent) 46% 64%,
-      transparent 64% 70%,
-      color-mix(in srgb, var(--series-quaternary) 65%, transparent) 70% 100%
-    );
-}
-
-.chart-canvas--ranked-table .chart-canvas__ink {
-  background:
-    repeating-linear-gradient(
-      180deg,
-      color-mix(in srgb, var(--series-primary) 40%, transparent) 0 12px,
-      transparent 12px 18px
-    );
-}
-
-.chart-canvas--timeline .chart-canvas__ink {
-  background: linear-gradient(
-    90deg,
-    color-mix(in srgb, var(--series-neutral) 70%, transparent) 0 100%
-  );
-  height: 2px;
-  bottom: 40%;
-  top: auto;
+  font-size: 0.74rem;
 }
 
 .chart-canvas--state-missing {
@@ -613,9 +549,12 @@ button {
 
 .chart-frame__meta {
   color: var(--text-secondary);
-  font-size: 0.86rem;
+  font-size: 0.82rem;
   display: grid;
-  gap: 2px;
+  gap: 4px;
+  padding: var(--space-2) 0;
+  border-top: 1px solid color-mix(in srgb, var(--border-subtle) 80%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--border-subtle) 80%, transparent);
 }
 
 .callout {
@@ -635,7 +574,8 @@ button {
 .callout p {
   margin: var(--space-1) 0 0;
   color: var(--text-secondary);
-  font-size: 0.86rem;
+  font-size: 0.82rem;
+  line-height: 1.45;
 }
 
 .callout--method h4 {
@@ -711,7 +651,7 @@ button {
   position: fixed;
   right: var(--space-4);
   bottom: var(--space-4);
-  width: min(460px, calc(100vw - 2rem));
+  width: min(520px, calc(100vw - 2rem));
   max-height: calc(100vh - 2rem);
   overflow: auto;
   border: 1px solid var(--border-strong);
@@ -754,7 +694,7 @@ button {
 
 @media (max-width: 1180px) {
   .shell-grid {
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 220px 1fr;
   }
 
   .right-rail {
@@ -787,6 +727,10 @@ button {
   .module-grid,
   .metrics-row {
     grid-template-columns: 1fr;
+  }
+
+  .page-header h2 {
+    font-size: 1.5rem;
   }
 }
 

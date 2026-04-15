@@ -86,8 +86,6 @@ function ModulePanel({ pageId, module, loadModuleChart }: ModulePanelProps) {
         {module.includesChart ? (
           <>
             <ChartFrame
-              title={module.title}
-              subtitle={module.subtitle}
               sourceLabel={module.sourceLabel}
               methodNote={module.methodNote}
               caveat={module.caveat}

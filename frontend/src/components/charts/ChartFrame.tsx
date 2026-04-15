@@ -1,11 +1,8 @@
 import type { ChartKind, ChartPayload, DataState } from '../../types'
-import { StateBadge } from '../ui/Badges'
 import { AnnotationBlock, CaveatBlock, MethodNoteBlock } from '../ui/Blocks'
 import { ChartCanvas } from './ChartCanvas'
 
 interface ChartFrameProps {
-  title: string
-  subtitle: string
   sourceLabel: string
   methodNote: string
   caveat: string
@@ -19,8 +16,6 @@ interface ChartFrameProps {
 }
 
 export function ChartFrame({
-  title,
-  subtitle,
   sourceLabel,
   methodNote,
   caveat,
@@ -34,18 +29,10 @@ export function ChartFrame({
 }: ChartFrameProps) {
   return (
     <section className="chart-frame chart-frame--export-safe">
-      <header className="chart-frame__header">
-        <div>
-          <h4>{title}</h4>
-          <p>{subtitle}</p>
-        </div>
-        <StateBadge state={state} />
-      </header>
-
-      <div className="chart-frame__legend">
-        <span className="legend-chip legend-chip--primary">Series A</span>
-        <span className="legend-chip legend-chip--secondary">Series B</span>
-        <span className="legend-chip legend-chip--neutral">Reference</span>
+      <div className="chart-frame__legend" aria-label="Chart legend">
+        <span className="legend-chip legend-chip--primary">Primary</span>
+        <span className="legend-chip legend-chip--secondary">Secondary</span>
+        <span className="legend-chip legend-chip--neutral">Context</span>
       </div>
 
       <ChartCanvas
@@ -57,8 +44,12 @@ export function ChartFrame({
 
       {includesComparisonToggle ? (
         <div className="chart-frame__compare">
-          <button type="button">Baseline: 2019</button>
-          <button type="button">Baseline: 2022</button>
+          <button type="button" aria-label="Use 2019 baseline">
+            2019 baseline
+          </button>
+          <button type="button" aria-label="Use 2022 baseline">
+            2022 baseline
+          </button>
         </div>
       ) : null}
 
