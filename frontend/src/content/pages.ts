@@ -79,7 +79,7 @@ export const dashboardPages: DashboardPage[] = [
     id: 'ict-trifecta',
     label: 'ICT Trifecta',
     heading: 'ICT Trifecta',
-    subheading: 'Tekjur, ráðningar, lausar stöður og framleiðni í NACE J',
+    subheading: 'Tekjur, ráðningar, lausar stöður, framleiðni og atvinnuleysi í NACE J',
     briefingSummary:
       'Síðan sýnir samtímaþróun sem er samhljóða framleiðnitilfærslu, með skýrum fyrirvörum um orsakasönnun.',
     riskSignal:
@@ -130,6 +130,17 @@ export const dashboardPages: DashboardPage[] = [
         chartFallbackNote: 'Area skeleton sem sýnir state + source + method svæði.',
       },
       {
+        id: 'ict-unemployment',
+        title: 'ICT Unemployment (VMST G5)',
+        subtitle: 'Fjórði ás — skráð atvinnuleysi í J',
+        sourceLabel: 'VMST Talnagögn G5',
+        methodNote:
+          'Árslok (desember) fjöldi á atvinnuleysisskrá, NACE J — Upplýsingar og fjarskipti. Mars 2026 er síðasta mæling.',
+        caveat:
+          'VMST-flokkun er ekki formlegt ÍSAT — J er þó 1:1 samsvörun. Höfðatölur eingöngu, ekkert hlutfall.',
+        state: 'verified',
+      },
+      {
         id: 'ict-caveat',
         title: 'Interpretation Caveat Panel',
         subtitle: 'Pattern, not proof',
@@ -140,7 +151,7 @@ export const dashboardPages: DashboardPage[] = [
       },
     ],
     missingDataNote:
-      'Vantar samstæðar tekjutölur 2025 fyrir J62 til að loka baseline ágreiningi.',
+      'Vantar samstæðar tekjutölur 2025 fyrir J62 til að loka baseline ágreiningi. VMST-atvinnuleysi (G5) staðfestir fjórða ásinn: +97,5% frá jan 2023 til mars 2026.',
   },
   {
     id: 'knowledge-occupation-collapse',

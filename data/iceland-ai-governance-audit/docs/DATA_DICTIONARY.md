@@ -662,13 +662,78 @@ After extraction:
 
 **Rikiskaup dissolution (August 2024):** The central procurement agency was dissolved and absorbed into FMA (Fjármála- og efnahagsráðuneytið). Historical procurement data held by Rikiskaup may have moved or changed format. TED API (above-threshold IT/AI procurement, CPV 72xxx, country:IS) is the recommended source for public sector AI procurement signals.
 
-**No quarterly unemployment by sector:** Hagstofa publishes quarterly unemployment for the total economy (VIN00920) but not by NACE sector. Sector-level unemployment is annual only (Labour Force Survey, VIN01110). VMST publishes monthly registered unemployment via a Power BI dashboard on island.is but provides no API access.
+**No quarterly unemployment by sector:** Hagstofa publishes quarterly unemployment for the total economy (VIN00920) but not by NACE sector. Sector-level unemployment is annual only (Labour Force Survey, VIN01110). VMST publishes monthly registered unemployment via a Power BI dashboard on island.is with **no API access**, but a static XLSM companion file is published alongside the dashboard and refreshed monthly — this is the source ingested by `vmst_ingest.py` (see §VMST Talnagögn below). The XLSM uses an 18-category bespoke VMST classification that is **not ÍSAT-compliant** — in particular ÍSAT division N (administrative & support services) has no 1:1 VMST counterpart.
 
 **Humlum and Vestergaard (2025) null-effect baseline:** The strongest comparable study (Danish LLM adoption, n=25,000+ workers, 2022-2024) finds null effects on earnings and hours. Any positive finding from this project must account for why Iceland would differ from Denmark. Possible explanations: Iceland's smaller economy concentrates AI adoption in fewer, more visible firms; Iceland's Labour Force Survey may lag adoption; the Danish study used firm-level matched data unavailable in Iceland.
 
 ### Data Vintage
 
 All extracts reflect the state of the Hagstofa database at the time `hagstofa_pxweb.py` was last run. Extraction dates are not currently embedded in the CSV files. It is recommended to add an extraction timestamp column or a companion metadata JSON file when running for formal analysis.
+
+### VMST Talnagögn (monthly XLSM, G1–G5 sheets)
+
+**Source URL (dashboard landing):**
+```
+https://island.is/s/vinnumalastofnun/maelabord-og-toelulegar-upplysingar
+```
+
+**Direct XLSM URL (Contentful CDN, changes when VMST republishes):**
+```
+https://assets.ctfassets.net/8k0h54kbe6bj/688FRtXuoA4qkPXerKcuMT/e6b9794d1bdfcf5cb5747a46b9b3d836/Talnagogn_atvinnuleysi.xlsm
+```
+
+**Ingest script:** `scripts/vmst_ingest.py` (downloads, verifies SHA-256, parses G1–G5 into long-form CSVs).
+**Analysis script:** `scripts/vmst_analysis.py` (produces `processed/vmst_priority_sectors.csv`, `processed/vmst_share_of_total.csv`, `processed/vmst_summary.md`).
+**Manifest:** `data/raw/vmst_MANIFEST.md` (regenerated on each ingest run; contains file hashes and row counts).
+**Provenance:** FOIA reply #05 — VMST, Ásta Ásgeirsdóttir 20. apríl 2026; the request (`data-requests/02_VMST_SECTOR_UNEMPLOYMENT.md`) was answered by pointing to this public file.
+
+#### Sheet inventory
+
+| Sheet | Raw CSV | Rows | Coverage | Unit |
+|-------|---------|-----:|----------|------|
+| G1 | `vmst_G1_unemployment_annual.csv` | 26 | 2000–2025 | % annual |
+| G2 | `vmst_G2_unemployment_monthly_rate.csv` | ~19.5k | 2000-02 → 2026-03 | % + monthly mean |
+| G3 | `vmst_G3_register_by_region.csv` | ~18.8k | 2000-02 → 2026-03 | persons (end-of-month) |
+| G4 | `vmst_G4_register_by_age.csv` | ~15.7k | 2000-02 → 2026-03 | persons (end-of-month) |
+| G5 | `vmst_G5_register_by_sector.csv` | ~16.6k | 2000-02 → 2026-03 | persons (end-of-month) |
+
+#### G5 column schema
+
+```
+manudur          YYYY-MM (first-of-month)
+rikisfang        {Allir, Íslenskt ríkisfang, Erlent ríkisfang}
+atvinnugrein     18-category VMST classification (Icelandic)
+fjoldi           integer — persons on the register at end of month
+```
+
+#### VMST-sector ↔ ÍSAT 2008 crosswalk
+
+| ÍSAT | VMST label | Mapping |
+|------|-----------|---------|
+| A | Landbúnaður og skógrækt | 1:1 ✅ |
+| A/B | Fiskveiðar, -eldi og -vinnsla | merged ⚠️ |
+| C | Iðnaður | 1:1 ✅ |
+| D/E | Sorp og veitur | merged ⚠️ |
+| F | Byggingastarfsemi og mannvirkjagerð | 1:1 ✅ |
+| G/H | Verslun og vöruflutningar | merged ⚠️ |
+| H (sub) | Farþegaflutningar með flugi | single NACE sub-class |
+| I (sub) | Gistiþjónusta | partial |
+| I (sub) | Veitingaþjónusta | partial |
+| (mixed) | Ferðaþjónusta ýmis | cross-NACE custom grouping |
+| J | Upplýsingar og fjarskipti | 1:1 ✅ |
+| K | Fjármála- og vátryggingastarfsemi | 1:1 ✅ |
+| L | Fasteignaviðskipti | 1:1 ✅ |
+| M | Sérfræðileg, vísindaleg og tæknileg starfsemi | 1:1 ✅ |
+| N | — | **NO VMST COUNTERPART** ❌ (likely folded into 'Ýmis þjónustustarfsemi') |
+| O/P/Q | Opinber þjónusta, fræðsla, heilbrigðis- og félagsþjónusta | merged |
+| R/S | Listir, söfn, tómstundir, félög, persónuleg þjónusta o.fl. | merged |
+| — | Annað | residual |
+
+**Caveats:**
+- Head counts only — no denominator → no sector-level unemployment rate computable from G5 alone.
+- VBA macros stripped on ingest (`keep_vba=False`); values are static snapshots at file publication.
+- Contentful CDN URL contains a content hash; it changes on republication. `vmst_MANIFEST.md` records the SHA-256 of the specific snapshot ingested (currently March 2026).
+- The VMST vs. Hagstofa LFS discrepancy identified by Ríkisendurskoðun (Dec 2024) is **not uniform across sectors** — preliminary cross-check shows J and K over-register in VMST relative to LFS.
 
 ### Icelandic Language in Column Values
 

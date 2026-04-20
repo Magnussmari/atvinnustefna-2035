@@ -394,15 +394,18 @@ The government was aware of this gap. Action B.1 of the AI Action Plan commissio
 
 One figure crystallizes the scope of the problem: according to a survey referenced in the AI Action Plan's own economic analysis (Action B.1), **only 8% of Icelandic workers feel adequately trained to use AI tools**. The government simultaneously projects that 130,000 workers will be "greatly affected" by AI and its own survey finds that 92% of workers do not feel ready for it. The AI Action Plan allocates ISK 1.1 billion to AI infrastructure and ISK 2.3 billion to education — while the readiness gap it implicitly acknowledges remains unmeasured at the scale needed to close it. The 8% figure also places Iceland's self-assessed readiness substantially below the Varda survey's more optimistic (but still alarming) finding that 45% of affected workers feel undertrained. Whether the actual figure is closer to 8% or 55% untrained is unknown — because the surveys ask different questions and neither was designed as a systematic workforce readiness audit.
 
-### 3.2 Omission Two: The ICT Trifecta
+### 3.2 Omission Two: The ICT Trifecta → Quadfecta
 
-Between 2022 and 2025, Iceland's ICT sector (NACE J) showed three signals moving simultaneously in a specific and diagnostically important pattern:
+Between 2022 and 2025, Iceland's ICT sector (NACE J) showed three signals moving simultaneously in a specific and diagnostically important pattern. A **fourth axis** was confirmed in April 2026 when VMST responded to FOIA request #02 by releasing its monthly sector-breakdown dashboard (file `Talnagogn_atvinnuleysi.xlsm`, sheet G5, ingested by `scripts/vmst_ingest.py`):
 
-| Signal | Change | Hagstofa Table | Value |
-|--------|--------|----------------|-------|
+| Signal | Change | Source | Value |
+|--------|--------|--------|-------|
 | Employment | -1,300 jobs (-11.4%) (2022–2025) | VIN01110 | 11,400 → 10,100 |
 | Revenue (J62 Computer Services) | +74.5% (2019–2024) | FYR04101 | 114.7bn → 200.1bn ISK |
 | Vacancy rate | -94% (5.4% → 0.3%) (2022–2025) | JVS00001 | 5.4% → 0.3% |
+| **Registered unemployment (J sector)** | **+97.5% (Jan 2023 → Mar 2026)** | **VMST G5** | **163 → 322 persons** |
+
+The fourth axis is decisive: from the 2022 trough (153 persons on the register at year-end) to March 2026 the J-sector register **more than doubled (+110%)**, while the aggregate register grew only +40% over the same window. The two most AI-exposed white-collar sectors — J (Upplýsingar og fjarskipti) and K (Fjármála- og vátryggingastarfsemi) — outpace the aggregate by roughly 2.4× and 2.3× respectively (see `data/processed/vmst_priority_sectors.csv`). The ÍSAT M sector (scientific, technical, professional) is a notable outlier: +19%, *below* the aggregate — either because it is absorbing displaced J-workers or because freelance/ehf-employment masks losses before they reach the register.
 
 *Verification note: The revenue figure was independently verified by Manus 1.6 (April 2026) against the raw PxWeb API. The 2019→2024 window shows +74.5% (ISK 114.7bn → ISK 200.1bn). A 2022→2024 window shows only +28.1% (full-year 2025 data was not yet available in the API at verification time). The 2019 baseline was selected because 2019 is the pre-COVID, pre-distortion reference year for this sector.*
 

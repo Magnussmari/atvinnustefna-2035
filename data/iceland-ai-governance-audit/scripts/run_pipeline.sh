@@ -86,6 +86,19 @@ if [ "$DO_EXTRACT" = true ]; then
         echo "  [~~] TED extraction failed (non-critical — manual fallback available)"
     fi
     echo ""
+
+    # ── Step 2b: VMST Unemployment Dashboard (XLSM) ──
+    echo "━━━ Step 2b/3: VMST Talnagögn Atvinnuleysi (XLSM) ━━━━━━━━"
+    echo ""
+    if python3 "$SCRIPT_DIR/vmst_ingest.py" --all 2>&1; then
+        python3 "$SCRIPT_DIR/vmst_analysis.py" 2>&1 || true
+        echo ""
+        echo "  [OK] VMST ingest + analysis complete"
+    else
+        echo ""
+        echo "  [~~] VMST extraction failed (non-critical — cached data may exist)"
+    fi
+    echo ""
 fi
 
 # ── Step 3: Validation ──

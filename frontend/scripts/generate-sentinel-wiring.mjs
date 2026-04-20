@@ -18,7 +18,7 @@ const PAGE_MODULES = {
     'exec-claims-matrix',
     'exec-immediate-actions',
   ],
-  'ict-trifecta': ['ict-series', 'ict-productivity', 'ict-caveat'],
+  'ict-trifecta': ['ict-series', 'ict-productivity', 'ict-unemployment', 'ict-caveat'],
   'knowledge-occupation-collapse': [
     'isco-ranked-table',
     'isco-slope',
@@ -107,6 +107,31 @@ function buildIctProductivitySeries(rows) {
     .filter((point) => Number.isFinite(point.value) && Number(point.label) >= 2019)
 }
 
+function buildVmstIctUnemploymentSeries(rows) {
+  // G5 is monthly; collapse to yearly end-of-year (or last available) for ICT sector.
+  const byYear = new Map()
+  rows
+    .filter(
+      (row) =>
+        row.rikisfang === 'Allir' &&
+        row.atvinnugrein === 'Upplýsingar og fjarskipti',
+    )
+    .forEach((row) => {
+      const year = String(row.manudur).slice(0, 4)
+      const value = toNum(row.fjoldi)
+      if (!Number.isFinite(value)) return
+      const existing = byYear.get(year)
+      if (!existing || row.manudur > existing.month) {
+        byYear.set(year, { month: row.manudur, value })
+      }
+    })
+
+  return Array.from(byYear.entries())
+    .filter(([year]) => Number(year) >= 2019)
+    .sort((a, b) => Number(a[0]) - Number(b[0]))
+    .map(([year, entry]) => ({ label: year, value: entry.value }))
+}
+
 function buildOccupationRows(rows, year) {
   return rows
     .filter(
@@ -152,21 +177,25 @@ async function buildSentinelWiring() {
     vacanciesQuarterlyCsv,
     labourProductivityCsv,
     employmentByOccupationCsv,
+    vmstSectorCsv,
   ] = await Promise.all([
     readRawCsv('employment_by_sector_annual.csv'),
     readRawCsv('vacancies_quarterly.csv'),
     readRawCsv('labour_productivity_annual.csv'),
     readRawCsv('employment_by_occupation_annual.csv'),
+    readRawCsv('vmst_G5_register_by_sector.csv'),
   ])
 
   const sectorRows = parseCsv(employmentBySectorCsv)
   const vacancyRows = parseCsv(vacanciesQuarterlyCsv)
   const productivityRows = parseCsv(labourProductivityCsv)
   const occupationRows = parseCsv(employmentByOccupationCsv)
+  const vmstSectorRows = parseCsv(vmstSectorCsv)
 
   const ictEmploymentSeries = buildIctEmploymentSeries(sectorRows)
   const ictVacancySeries = buildIctVacancySeries(vacancyRows)
   const ictProductivitySeries = buildIctProductivitySeries(productivityRows)
+  const ictUnemploymentSeries = buildVmstIctUnemploymentSeries(vmstSectorRows)
 
   const occupation2024 = buildOccupationRows(occupationRows, '2024')
   const occupation2025 = buildOccupationRows(occupationRows, '2025')
@@ -209,6 +238,15 @@ async function buildSentinelWiring() {
       unit: 'index',
       summary: 'ICT labour productivity index values from Hagstofa (Index 2008=100).',
       series: [{ name: 'Productivity index', points: ictProductivitySeries }],
+    },
+    'ict-unemployment': {
+      kind: 'line',
+      unit: 'persons on register (end of year)',
+      summary:
+        'VMST registered unemployment in the ICT sector (J — Upplýsingar og fjarskipti), year-end snapshot. Grew from 163 in Jan 2023 to 322 in Mar 2026 — +97.5% vs aggregate +39.8%. Fourth axis of the ICT Trifecta → Quadfecta.',
+      series: [
+        { name: 'ICT sector unemployment (VMST G5)', points: ictUnemploymentSeries },
+      ],
     },
     'isco-ranked-table': {
       kind: 'ranked-table',
@@ -366,6 +404,7 @@ async function buildSentinelWiring() {
     'vacancies_quarterly.csv': vacanciesQuarterlyCsv,
     'labour_productivity_annual.csv': labourProductivityCsv,
     'employment_by_occupation_annual.csv': employmentByOccupationCsv,
+    'vmst_G5_register_by_sector.csv': vmstSectorCsv,
   }
 
   const sourceHashes = Object.fromEntries(

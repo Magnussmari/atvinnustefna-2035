@@ -1,18 +1,20 @@
 {
-  "generatedAt": "2026-04-14T15:41:50.762Z",
+  "generatedAt": "2026-04-20T13:57:42.091Z",
   "sourceFiles": [
     "employment_by_sector_annual.csv",
     "vacancies_quarterly.csv",
     "labour_productivity_annual.csv",
-    "employment_by_occupation_annual.csv"
+    "employment_by_occupation_annual.csv",
+    "vmst_G5_register_by_sector.csv"
   ],
   "sourceHashes": {
     "employment_by_sector_annual.csv": "be3b149ae7344ea4",
     "vacancies_quarterly.csv": "b20ccab68bd8a7c7",
     "labour_productivity_annual.csv": "826dda5035c61872",
-    "employment_by_occupation_annual.csv": "69a97268acc555fb"
+    "employment_by_occupation_annual.csv": "69a97268acc555fb",
+    "vmst_G5_register_by_sector.csv": "f2cd92d9761e901a"
   },
-  "fingerprint": "2ddaa39bd5412446",
+  "fingerprint": "a1bbe67f004e81df",
   "pages": {
     "executive-overview": {
       "modules": [
@@ -25,6 +27,7 @@
       "modules": [
         "ict-series",
         "ict-productivity",
+        "ict-unemployment",
         "ict-caveat"
       ]
     },

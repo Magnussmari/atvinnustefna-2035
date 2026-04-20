@@ -1,6 +1,6 @@
 # Verkáætlun / Roadmap
 
-**Uppfært / Updated:** 14. apríl 2026
+**Uppfært / Updated:** 20. apríl 2026
 
 ---
 
@@ -48,6 +48,7 @@ Verkefnið er lokið í grunninn. Allar 5 lykilniðurstöður hafa verið sannpr
 | **Birta blogg á smarason.is** | 🟡 Miðlungs | Eftir yfirferð |
 | **Gera GitHub repo opinbert á LinkedIn/X** | 🟡 Miðlungs | Með tengil á repo |
 | **Svar við gagnaóskum** — skrá í verification/responses/ | 🟢 Lágt | Þegar svör berast |
+| **FOIA #05 VMST** — svar móttekið 20. apríl 2026, G5 gögn sótt, ICT Trifecta → **Quadfecta** | ✅ Lokið | J-geiri +97,5% frá jan-23 (→ `scripts/vmst_ingest.py`, `scripts/vmst_analysis.py`) |
 
 ### C. Eftir birtingu / After Publication
 
